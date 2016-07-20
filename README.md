@@ -69,6 +69,8 @@ We have several top-level tags:
   * party_screen_data
   * town_data
   * reward_data
+
+You can find more information about each here:  
   
   1. [Battle](02_01_battle.md)
   2. [Overworld](02_02_overworld.md)
