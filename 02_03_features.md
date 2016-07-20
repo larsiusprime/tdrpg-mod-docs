@@ -9,9 +9,13 @@ Here’s an example:
 
 This defines a feature, with the id of "pitwalls_nw" at location (0,0) - the top-left corner of the map, and makes it visible ("shown") by default. The game will look for a corresponding piece of art, `feature_pitwalls_nw.png`, in the `gfx/_orig/tiles` folder, when it tries to draw the overworld.
 
+--------
+
 **In HD art mode, the positions given in these tags are ignored, as the placements are defined in the `tiled/overworld/map.tmx` file. IIRC, the engine still uses the index.xml definitions to define other properties for these features, however.**
 
-TODO: add more docs on this
+**TODO: add more docs on this**
+
+--------
 
 Features can be modified by game triggers - specifically, their visibility can be changed. For instance, the town of Karsk is burned to the ground early in the game. This is accomplished by starting the game with two different versions of the town’s graphic feature, one visible, and one invisibile.
 
