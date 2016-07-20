@@ -4,7 +4,8 @@ Mods are simply a collection of data and graphic files organized in a certain st
 When you’re running a mod, any time the game needs a certain asset it will first look in your mod for the file.
 If it doesn’t find it, it will revert to the default version of that file.
 
-Example:You can create a valid mod that consists of nothing but a single sprite sheet graphic of Azra with a
+####Example:
+You can create a valid mod that consists of nothing but a single sprite sheet graphic of Azra with a
 blue dress instead of a purple one. When the game looks for Azra’s spritesheet, it will load your changed version, 
 and Azra will have a blue dress in battle. Whenever the game looks for anything else, it won’t find the file in your
 mod, so it will use the default version of that file instead, so your mod will be exactly the same as the normal game,
@@ -12,12 +13,12 @@ except Azra will have a blue dress.
 
 When you export a mod for the first time, you can specify how much data you want to include. Since large graphic files
 can take a long while to export (particularly cutscene and background assets), if you don’t feel like changing those in
-your mod, it’s best to stick with just data, or just data and sprites. If you later decide you do want to make changes to
+your mod it’s best to stick with just data, or just data and sprites. If you later decide you do want to make changes to
 those heavier graphicd files, you can always add them later, but you’ll need to get the filenames and folder structure right.
 In this case it’s best to do a separate full graphics-and-everything export to a new mod folder with a different name, and 
 then copy over the missing assets. This way, you can avoid overwriting your existing work.
 
-Below is the structure of a fully-exported mod that contains all the game’s data.
+Below is an overview of the structure of a fully-exported mod that contains all the game’s data.
 
 The root directory contains these folders:
 
@@ -33,8 +34,9 @@ The root directory contains these folders:
   xml/         ← assorted data files
 ```
 
-The `\maps` and `\tables` folders contain some very important files:
+The `\maps` and `\tables` folders contain some very important files.
 
+`\maps` contains all the level data:
 ```
   maps\index.xml              ← game index (very important!)
   maps\<level_id>.png         ← image map for level
@@ -42,15 +44,16 @@ The `\maps` and `\tables` folders contain some very important files:
   maps\<overworld_<xyz>.png   ← overworld tile layout (original art mode)
 ```
 
+`\tables` contains all the character level up tables:
 ```
    tables\exp.csv             ← global character levelup table
    tables\recruit.csv         ← new recruit cost table
    tables\<class_name>.xml    ← character class stats table
 ```
 
-The `/xml` folder contains most of the game's "core" data files. 
+The `\xml` folder contains the rest of the game's core data files. 
 
-It has these subfolders:
+`\xml` has these subfolders:
 ```
   entities/           ← graphics metadata
   options/            ← options data
@@ -88,4 +91,4 @@ And these significant files:
   scenes/aliases.xml        ← image & light file aliases (redirect a file to a different one in the cutscene script under various conditions)
 ```
 
-Next, we'll dig into the various data files and explaining how they work. 
+Next, we'll dig into the various data files and explain how they work. 
