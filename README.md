@@ -3,10 +3,11 @@ Mod documentation for the TDRPG engine (Defender's Quest)
 
 #0. [Finding, Installing, and Playing Mods](00.md)
 
-#1. [Introduction & Terminology for n00bs](01.md)
+#1. [Introduction](01.md)
 
-  1. Creating your first mod
-  2. File system overview
+  1. [Terminology](01_01_terminology.md)
+  2. [Creating your first mod](01_02_first_mod.md)
+  3. [File system overview](01_03_overview.md)
 
 #2. [Core Data Files and **index.xml**](02.md)
 
