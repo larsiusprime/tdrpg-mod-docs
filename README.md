@@ -50,14 +50,14 @@ tables/<character_class>.csv
 
 We’ll start with `index.xml`, the file that ties most of the game’s systems together.
 
-  1. [Index.xml](02_01_00_index.md)
-    * [Battle tag](02_01_01_battle.md)
-    * [Overworld tag](02_01_02_overworld.md)
-  2. [Overworld features](02_02_overworld.md)
-  3. [Map pearls](02_03_map_pearls.md)
-  4. [Towns](02_04_towns.md)
-  5. [Battle rewards](02_05_battle_rewards.md)
-  6. [Tutorial levels & NewGame+ Rewards](02_06_tutorial.md)
+  1. [Overview](02_01_index.md)
+  2. [Battle](02_02_battle.md)
+  3. [Overworld](02_03_overworld.md)
+  4. [Overworld features](02_04_features.md)
+  5. [Map pearls](02_05_map_pearls.md)
+  6. [Towns](02_06_towns.md)
+  7. [Battle rewards](02_07_battle_rewards.md)
+  8. [Tutorial levels & NewGame+ Rewards](02_08_tutorial.md)
 
 #3. Graphic
 
