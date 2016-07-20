@@ -3,7 +3,20 @@ Mod documentation for the TDRPG engine (Defender's Quest)
 
 #0. [Finding, Installing, and Playing Mods](00.md)
 
-#1. [Introduction](01.md)
+#1. Introduction
+
+So, you want to make a mod for Defender’s Quest. This guide will show you how.
+
+There is a [mod editor](https://github.com/Autoquark/dq1-unofficial-mod-editor) in the works, but it's in very early stages.
+Until it's finished, you’ll be doing almost everything using simple text and image editors.
+
+If you don’t know what XML is, for instance, I suggest [reading up on that now](https://steamcommunity.com/linkfilter/?url=http://en.wikipedia.org/wiki/XML).
+
+**NOTE:**
+*This guide is a work in progress. Many of the sections are stubs and still need to be filled out. Also, mod functionality has not been robustly tested, and might need a few more patches to bring it up to speed. I’ll need some help from adventurous modders to test the limits of the system.*
+
+**SPOILER ALERT:**
+*If you’re poking around in the game’s data files, you will come across spoilers! This guide talks about these files in great detail, so it will also contain lots of spoilers. Play the game first if you don’t want to be spoiled!*
 
   1. [Terminology](01_01_terminology.md)
   2. [Creating your first mod](01_02_first_mod.md)
