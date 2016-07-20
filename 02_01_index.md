@@ -113,15 +113,20 @@ The overworld tag is pretty simple:
 It simply specifies the total scrollable area of the overworld. The values are given in base-600 pixels, which means that as your overworld scales in size above the smallest vertical resolution (600), these values will scale proportionately as well.
 
 The `tiles` tag is only used in "original art" mode, and defines tile layers for the overworld:
-```
-	<tiles default="dirt" dark="grey_dirt">
-		<tile rgb="0x808000" value="sand" layer="1"/>
-		<tile rgb="0x008000" value="grass" layer="2"/>
-		<tile rgb="0x0000FF" value="water" layer="3"/>
-		<tile rgb="0xc4c4c4" value="black_stone" layer="4"/>
-		<tile rgb="0xFFFF00" value="creep" layer="5"/>
-		<tile rgb="0x00FF00" value="sewage" layer="6"/>
-	</tiles>
+```xml
+   <tiles default="dirt" dark="grey_dirt">
+	<tile rgb="0x808000" value="sand" layer="1"/>
+	<tile rgb="0x008000" value="grass" layer="2"/>
+	<tile rgb="0x0000FF" value="water" layer="3"/>
+	<tile rgb="0xc4c4c4" value="black_stone" layer="4"/>
+	<tile rgb="0xFFFF00" value="creep" layer="5"/>
+	<tile rgb="0x00FF00" value="sewage" layer="6"/>
+   </tiles>
 ```
 
-Each `<tile>` tag corresponds to two files
+Each `<tile>` tag corresponds to two files -- an ```maps/overworld_<value>.png``` file and a ```gfx/_orig/tiles/tile_overworld_<value>.png``` file. 
+
+The ```maps/overworld_<value>.png``` specifies how the tiles are laid out -- one pixel equals one tile.
+The ```gfx/_orig/tiles/tile_overworld_<value>.png``` is the actual tileset.
+
+Since this method is only used for original art mode, it does not consider the ```gfx/_hd/tiles/tile_overworld_<value>.png``` files.
