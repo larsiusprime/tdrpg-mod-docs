@@ -26,7 +26,7 @@ If you don’t know what XML is, for instance, I suggest [reading up on that now
   2. [Creating your first mod](01_02_first_mod.md)
   3. [File system overview](01_03_overview.md)
 
-#2. [Core Data Files and **index.xml**](02.md)
+#2. Core Data Files and **index.xml**
 
   1. Overworld features
   2. Map pearls
