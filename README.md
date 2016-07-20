@@ -24,7 +24,10 @@ If you don’t know what XML is, for instance, I suggest [reading up on that now
 
   1. [Terminology](01_01_terminology.md)
   2. [Creating your first mod](01_02_first_mod.md)
-  3. [File system overview](01_03_overview.md)
+  3. [Text & Localization](01_03_localization.md)
+  4. [HD vs Pixel art](01_04_hd_vs_pixel.md)
+  5. [File system overview](01_05_overview.md)
+   
 
 #2. Core Data Files and **index.xml**
 
