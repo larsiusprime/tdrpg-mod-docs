@@ -1,5 +1,5 @@
 # tdrpg-mod-docs
-Mod documentation for the TDRPG engine (Defender's Quest)
+Mod documentation for the TDRPG engine (as seen in Defender's Quest)
 
 #0. Finding, Installing, and Playing Mods
 
