@@ -56,21 +56,7 @@ This is one of the most important files in the entire mod, and is used for many 
 
 This file, like most of the files in the game, is an XML file. It’s a simple data format similar to HTML, except the designer (that’s me!) defines all the tags. 
 
-We have several top-level tags:
-
-  * battle
-  * overworld
-  * tiles
-  * features
-  * hint_data
-  * pearl_data
-  * battle_screen_data
-  * overworld_data
-  * party_screen_data
-  * town_data
-  * reward_data
-
-You can find more information about each here:  
+Each section is described in detail here:
   
   1. [Battle](02_01_battle.md)
   2. [Overworld](02_02_overworld.md)
