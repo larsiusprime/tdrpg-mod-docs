@@ -114,7 +114,7 @@ It simply specifies the total scrollable area of the overworld. The values are g
 
 The `tiles` tag is only used in "original art" mode, and defines tile layers for the overworld:
 ```xml
-   <tiles default="dirt" dark="grey_dirt">
+   <tiles default="dirt">
 	<tile rgb="0x808000" value="sand" layer="1"/>
 	<tile rgb="0x008000" value="grass" layer="2"/>
 	<tile rgb="0x0000FF" value="water" layer="3"/>
@@ -124,9 +124,14 @@ The `tiles` tag is only used in "original art" mode, and defines tile layers for
    </tiles>
 ```
 
-Each `<tile>` tag corresponds to two files -- an ```maps/overworld_<value>.png``` file and a ```gfx/_orig/tiles/tile_overworld_<value>.png``` file. 
+**NOTE:** *The following method is ONLY used in original art mode. A totally different method is used to draw the HD overworld!*
 
-The ```maps/overworld_<value>.png``` specifies how the tiles are laid out -- one pixel equals one tile.
-The ```gfx/_orig/tiles/tile_overworld_<value>.png``` is the actual tileset.
+These are the tilesets used for the overworld. The default="dirt" attribute in the opening tag specifies what the bottom-most tileset is.
 
-Since this method is only used for original art mode, it does not consider the ```gfx/_hd/tiles/tile_overworld_<value>.png``` files.
+Within the `<tiles>` tag are a list of `<tile>` tags (no 's'). Each of these specifies a pixel color in hexadecimal format (rgb), a tile id (value) and a layer number (layer). So, in this example, the overworld has a `dirt` layer on the bottom, then `sand`, then `grass`, then `water`, then `black_stone`, then `creep`, then `sewage`. All of the tilesets for these layers can be found in gfx\tiles\, but unlike normal battle tiles they start with the prefix "`tile_overworld_`" instead of just "`tile_`." So the overworld grass tile will be "`tile_overworld_grass.png.`"
+
+The overworld is created by looking up several image maps and turning them into tile layers. These image maps are stored in the `maps/` folder, and have the format `overworld_<tile_id>.png`
+
+So if you go to that folder, you should find files like `overworld_sand.png`, which specifies where all the sand is. The game will look for pixels that match the value in the corresponding `<tile>` tag, so for sand, it’s a kind of dark yellow (`0x808000`). Any other pixel value in that file is treated as empty space.
+
+When designing the overworld, I usually have one master .psd file setup with each tileset as a separate layer, each set to "lighter color" so that the pixel color shows through and the black becomes transparent. This way I can see how the layers will look stacked together. When I’m done, I save each layer as a separate png. 
