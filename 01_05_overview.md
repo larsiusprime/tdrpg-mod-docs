@@ -1,4 +1,4 @@
-##1.3 File system overview
+##1.5 File system overview
 
 Mods are simply a collection of data and graphic files organized in a certain structure.
 When you’re running a mod, any time the game needs a certain asset it will first look in your mod for the file.
