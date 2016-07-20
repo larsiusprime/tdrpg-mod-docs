@@ -28,7 +28,7 @@ If you don’t know what XML is, for instance, I suggest [reading up on that now
 
 #2. Core Data Files and **index.xml**
 
-As you can see from the previous section, there’s a lot of data files! Fortunately, the most important data is in only a few of them. These are the “core” data files, and they’ll be the ones we’ll talk about first.
+As you can see from [section 1.3](01_03_overview.md), there’s a lot of data files! Fortunately, the most important data is in only a few of them. These are the “core” data files, and they’ll be the ones we’ll talk about first.
 
 They are:
 
@@ -48,7 +48,7 @@ tables/recruit.csv
 tables/<character_class>.csv
 ```
 
-We’ll start with `index.xml`, the file that ties most of the game’s systems together. Open your mod’s copy of `maps/index.xml`.
+This section will cover `index.xml`, the file that ties most of the game’s systems together. Open your mod’s copy of `maps/index.xml`.
 
 This is one of the most important files in the entire mod, and is used for many different things. It’s called the "game index." This file, like most of the files in the game, is an XML file. It’s a simple data format similar to HTML, except the designer (that’s me!) defines all the tags. 
 
@@ -60,7 +60,7 @@ This is one of the most important files in the entire mod, and is used for many 
   6. [Battle rewards](02_06_battle_rewards.md)
   7. [Tutorial levels & NewGame+ Rewards](02_07_tutorial.md)
 
-#3. Graphic
+#3. Graphics
 
   1. HD vs Original
   2. Layered vs. Baked HD sprites
