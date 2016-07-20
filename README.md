@@ -71,6 +71,27 @@ This is one of the most important files in the entire mod, and is used for many 
 
 #4. Defender Data
 
+Two main files contains all the information that defines character classes, both in and out of battle.
+
+`defender.xml`
+
+```
+<level_cap>    ← defines the level cap. Very simple.
+<boost_cap>    ← maximum boost level
+<recruit_cap>  ← max number of generic units
+<class_cap>    ← max number of units in any given class
+```
+
+`defender_skill.xml`
+
+```
+<hidden_flavors> ← which attack flavors should be hidden*
+<ui>             ← defines maximum number of passive ("trait") and attack ("technique") skills
+<defender>       ← entry for a defender and all of their skills
+```
+
+*ie, flavors that shouldn't show up in the interface anywhere, such as "physical", so you don't see nonsense like "Hits and PHYSICALS a single target for 10 dmg."
+
   1. Class definitions
   2. Graphics
   3. Character colors
