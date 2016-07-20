@@ -75,6 +75,8 @@ Defender art can be found in `gfx/_hd/defenders/` and `gfx/_orig/defenders/`. Fo
         <layers>.png     ← individual layer files
 ```
 
+As you can see the structure is quite different for HD art than for original art! HD art has to be specially prepared with the [dqsprite tool](https://github.com/larsiusprime/tdrpg-tools/tree/master/dqsprite), you can't just edit a sprite sheet in place like you can with the original art. I'll eventually try to find a way to integrate the dqsprite tool into the mod editor to make things more convenient.
+
 ####Enemies
 
 ####Effects
