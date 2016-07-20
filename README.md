@@ -50,14 +50,33 @@ tables/<character_class>.csv
 
 We’ll start with `index.xml`, the file that ties most of the game’s systems together.
 
-  1. [Overview](02_01_index.md)
-  2. [Battle](02_02_battle.md)
-  3. [Overworld](02_03_overworld.md)
-  4. [Overworld features](02_04_features.md)
-  5. [Map pearls](02_05_map_pearls.md)
-  6. [Towns](02_06_towns.md)
-  7. [Battle rewards](02_07_battle_rewards.md)
-  8. [Tutorial levels & NewGame+ Rewards](02_08_tutorial.md)
+Open your mod’s copy of `maps/index.xml`.
+
+This is one of the most important files in the entire mod, and is used for many different things. It’s called the “game index.”
+
+This file, like most of the files in the game, is an XML file. It’s a simple data format similar to HTML, except the designer (that’s me!) defines all the tags. 
+
+We have several top-level tags:
+
+  * battle
+  * overworld
+  * tiles
+  * features
+  * hint_data
+  * pearl_data
+  * battle_screen_data
+  * overworld_data
+  * party_screen_data
+  * town_data
+  * reward_data
+  
+  1. [Battle](02_01_battle.md)
+  2. [Overworld](02_02_overworld.md)
+  3. [Overworld features](02_03_features.md)
+  4. [Map pearls](02_04_map_pearls.md)
+  5. [Towns](02_05_towns.md)
+  6. [Battle rewards](02_06_battle_rewards.md)
+  7. [Tutorial levels & NewGame+ Rewards](02_07_tutorial.md)
 
 #3. Graphic
 
