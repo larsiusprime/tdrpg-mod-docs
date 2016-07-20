@@ -6,32 +6,32 @@ You don’t need any programming experience to make a Defender’s Quest mod, bu
 
 ###Defender’s Quest Jargon:
 
-**TD-RPG:**
+####TD-RPG
 This means “Tower Defense Role Playing Game” and was the original code-name for the project.
 
-**Labels vs. Variables:**
+####Labels vs. Variables
 A label is the piece of text that we display to the player in game and is consistent with the game’s theme and story. Often we’ll have an internal representation of that thing in game data that goes by some other name, sometimes similar, sometimes completely different, and often has no relation to the game’s theme, it’s just a mechanical word for our own use. This internal representation is called a “variable.” The following entry is a good example.
 
-**Mcguffin:**
+####Mcguffin
 Although Azra’s character class is displayed as “Librarian” in game, her character class is referred to throughout the code and game data as “mcguffin.” This is because she is the “Tower Defense McGuffin”, ie the thing you have to arbitrarily defend.
 
-**Unazra:**
+####Unazra
 The mysterious sorceress, Tletl-Metzli, was originally named “unazra” while we were coming up with a name for her, and this is what she’s referred to in game data. Her character class is “antimcguffin.”
 
-**Gold/scrap:**
+####Gold/scrap
 Scrap is the in-game label for money, but in data the variable is simply “gold” (usually).
 
-**Defender vs. Character:**
+####Defender vs. Character
 The members of your party are your characters, and the units you place in battle are defenders. This distinction is pretty subtle, but I throw it in as a heads-up for when you see me use one or the other term.
 
 A character is an object that holds a party member’s data, basically, and a defender is the in-battle representation for that character. Azra is also a “defender” in this sense.
 
-**Creature:**
+####Creature
 In battle, the word “creature” means either a defender or an enemy. So, when I say something like “creatures can take damage” I mean, “defenders or enemies can take damage.”
 Casual/Normal/Advanced/Extreme:
 The battle challenge labels are “casual”, “normal”, “advanced,” and “extreme,” but internally the variables are “casual”, “easy”, “medium,” and “hard.”
 
-**Alternate Mcguffin, Allies, and Minions:**
+####Alternate Mcguffin, Allies, and Minions
 In the final battle, Zelemir shows up as a support character and alternate target for the enemies and is thus an “alternate mcguffin.” When Unazra shows up, she is sometimes an alternate mcguffin (the final sidequest) but usually simply a substitute mcguffin for Azra.
 
 - Every battle always has at least one **mcguffin**
@@ -51,7 +51,7 @@ In the final battle, Zelemir shows up as a support character and alternate targe
 
 ###Programming Jargon:
 
-**String:**
+####String
 Some text, i.e, a ‘string” of letters, numbers, or other characters between quote marks. Not the stuff you tie up packages with.
 
 Examples:
@@ -61,13 +61,13 @@ Examples:
   "aNdIAmaStringT00!!!11110mgroflcopter"
 ```
 
-**Boolean:**
+####Boolean
 A value that is either true or false. Sometimes called a "bool" for short.
 
-**Byte:**
+####Byte
 Eight “bits” of memory, where a bit is a number that can store only a zero or a one. A byte can store any number between 0 and 255, or 256 values in total.
 
-**Hexadecimal:**
+####Hexadecimal
 Regular numbers are base 10, so “10” means “ONE ten + ZERO ones.”
 Binary numbers are base 2, so “10” means “ONE two + ZERO ones.”
 
@@ -85,7 +85,7 @@ So Magenta = Red(FF) + Green(00) + Blue(FF).
 
 Usually you stick those three bytes together: `FF00FF`, and to let the computer know that’s a hexadecimal number rather than a regular string, you put `0x` in front. So magenta is commonly expressed as `0xFF00FF` in Hexadecimal.
 
-**24-bit vs.32-bit color**
+####24-bit vs.32-bit color
 As you might have guessed, the 3 bytes of a pixel equals 24 bits. So, that’s where the word “24-bit color” comes from - 24-bit pixels. So what does “32-bit color” mean? Well, sometimes you want pixels that are partially transparent. To do this, you add one more “channel,” the “alpha channel,” where alpha means transparency. In a 32-bit pixel value, the first byte is the transparency value, where 0 means “fully transparent” and 255 means “fully visible.”
 
 So `0xFFFF00FF` would be completely visible magenta, and `0x88FF00FF` would be half-transparent magenta, and `0x00FF00FF` would be completely invisible magenta, the same as not drawing anything at all.
