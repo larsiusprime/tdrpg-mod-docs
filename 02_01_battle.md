@@ -1,4 +1,4 @@
-###2.1.1 Battle tag
+##2.1 Battle tag
 
 ```<battle>``` starts with these three tags:
 
