@@ -51,6 +51,8 @@ tables/<character_class>.csv
 We’ll start with `index.xml`, the file that ties most of the game’s systems together.
 
   1. [Index.xml](02_01_00_index.md)
+    * [Battle tag](02_01_01_battle.md)
+    * [Overworld tag](02_01_02_overworld.md)
   2. [Overworld features](02_02_overworld.md)
   3. [Map pearls](02_03_map_pearls.md)
   4. [Towns](02_04_towns.md)
