@@ -28,11 +28,34 @@ If you don’t know what XML is, for instance, I suggest [reading up on that now
 
 #2. Core Data Files and **index.xml**
 
-  1. Overworld features
-  2. Map pearls
-  3. Towns
-  4. Battle rewards
-  5. Tutorial levels & NewGame+ Rewards
+As you can see from the previous section, there’s a lot of data files! Fortunately, the most important data is in only a few of them. These are the “core” data files, and they’ll be the ones we’ll talk about first.
+
+They are:
+
+```
+xml/defender.xml
+xml/defender_skills.xml
+xml/game_progression.xml
+xml/enemy.xml
+xml/items.xml
+xml/bonus.xml
+
+xml/scenes/scripts.xml
+xml/scenes/puppet_shows.xml
+maps/index.xml
+tables/exp.csv
+tables/recruit.csv
+tables/<character_class>.csv
+```
+
+We’ll start with `index.xml`, the file that ties most of the game’s systems together.
+
+  1. [Index.xml](02_01_index.md)
+  2. [Overworld features](02_02_overworld.md)
+  3. [Map pearls](02_03_map_pearls.md)
+  4. [Towns](02_04_towns.md)
+  5. [Battle rewards](02_05_battle_rewards.md)
+  6. [Tutorial levels & NewGame+ Rewards](02_06_tutorial.md)
 
 #3. Graphic
 
