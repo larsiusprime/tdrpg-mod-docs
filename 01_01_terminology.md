@@ -1,4 +1,4 @@
-##01. Terminology for n00bs
+##1.1. Terminology for n00bs
 
 Feel free to skip this section and refer back to it later as necessary.
 
