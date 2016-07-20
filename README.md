@@ -48,16 +48,10 @@ tables/recruit.csv
 tables/<character_class>.csv
 ```
 
-We’ll start with `index.xml`, the file that ties most of the game’s systems together.
+We’ll start with `index.xml`, the file that ties most of the game’s systems together. Open your mod’s copy of `maps/index.xml`.
 
-Open your mod’s copy of `maps/index.xml`.
+This is one of the most important files in the entire mod, and is used for many different things. It’s called the "game index." This file, like most of the files in the game, is an XML file. It’s a simple data format similar to HTML, except the designer (that’s me!) defines all the tags. 
 
-This is one of the most important files in the entire mod, and is used for many different things. It’s called the “game index.”
-
-This file, like most of the files in the game, is an XML file. It’s a simple data format similar to HTML, except the designer (that’s me!) defines all the tags. 
-
-Each section is described in detail here:
-  
   1. [Battle](02_01_battle.md)
   2. [Overworld](02_02_overworld.md)
   3. [Overworld features](02_03_features.md)
