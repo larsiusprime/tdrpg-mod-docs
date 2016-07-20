@@ -128,7 +128,7 @@ The `tiles` tag is only used in "original art" mode, and defines tile layers for
 
 These are the tilesets used for the overworld. The default="dirt" attribute in the opening tag specifies what the bottom-most tileset is.
 
-Within the `<tiles>` tag are a list of `<tile>` tags (no 's'). Each of these specifies a pixel color in hexadecimal format (rgb), a tile id (value) and a layer number (layer). So, in this example, the overworld has a `dirt` layer on the bottom, then `sand`, then `grass`, then `water`, then `black_stone`, then `creep`, then `sewage`. All of the tilesets for these layers can be found in gfx\tiles\, but unlike normal battle tiles they start with the prefix "`tile_overworld_`" instead of just "`tile_`." So the overworld grass tile will be "`tile_overworld_grass.png.`"
+Within the `<tiles>` tag are a list of `<tile>` tags (no 's'). Each of these specifies a pixel color in hexadecimal format (rgb), a tile id (value) and a layer number (layer). So, in this example, the overworld has a `dirt` layer on the bottom, then `sand`, then `grass`, then `water`, then `black_stone`, then `creep`, then `sewage`. All of the tilesets for these layers can be found in `gfx\_orig\tiles\`, but unlike normal battle tiles they start with the prefix "`tile_overworld_`" instead of just "`tile_`." So the overworld grass tile will be "`tile_overworld_grass.png.`"
 
 The overworld is created by looking up several image maps and turning them into tile layers. These image maps are stored in the `maps/` folder, and have the format `overworld_<tile_id>.png`
 
