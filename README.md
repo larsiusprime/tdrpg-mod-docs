@@ -92,15 +92,14 @@ Two main files contains all the information that defines character classes, both
 
 *ie, flavors that shouldn't show up in the interface anywhere, such as "physical", so you don't see nonsense like "Hits and PHYSICALS a single target for 10 dmg."
 
-  1. Class definitions
-  2. Graphics
-  3. Character colors
-  4. Skills
-  5. Damage flavors
-  6. Attack skills, "Techniques", part 1
-  7. Attack skills, "Techniques", part 2
-  8. Passive skills, "Traits"
-  9. Mcguffin's skills, Spells
+  1. [Class definitions](04_01_class.md)
+  2. [Graphics](04_02_graphics.md)
+  3. [Character colors](04_03_colors.md)
+  4. [Skills](04_04_skills.md)
+  5. [Damage flavors](04_05_flavors.md)
+  6. [Attack skills, "Techniques"](04_06_attacks.md)
+  7. [Passive skills, "Traits"](04_07_passives.md)
+  8. [Mcguffin's skills, Spells](04_08_spells.md)
 
 #5. Battles
 
