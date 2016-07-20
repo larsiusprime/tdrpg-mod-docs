@@ -34,13 +34,13 @@ If you don’t know what XML is, for instance, I suggest [reading up on that now
   4. Battle rewards
   5. Tutorial levels & NewGame+ Rewards
 
-#3. [Graphics](03.md)
+#3. Graphic
 
   1. HD vs Original
   2. Layered vs. Baked HD sprites
   3. Pipeline
 
-#4. [Defender Data](04.md)
+#4. Defender Data
 
   1. Class definitions
   2. Graphics
@@ -52,17 +52,17 @@ If you don’t know what XML is, for instance, I suggest [reading up on that now
   8. Passive skills, "Traits"
   9. Mcguffin's skills, Spells
 
-#5. [Battles](05.md)
+#5. Battles
 
   1. Layered battle setup
 
-#6. [Cutscenes](06.md)
+#6. Cutscenes
 
   1. Standard cutscenes
   2. "Puppet shows"
 
-#7. [Game progress & triggers](07.md)
+#7. Game progress & triggers
 
-#8. [Enemies](08.md)
+#8. Enemies
 
-#9. [Items](09.md)
+#9. Items
