@@ -1,4 +1,4 @@
-##2.2 Overworld features
+##2.3 Overworld features
 
 The next tag is `<features>`. This is a collection of specific art pieces that are placed around the overworld, and is used for things like towns, the cliffs surrounding the pit, the coliseum, the desert fortress, etc.
 
