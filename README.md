@@ -65,9 +65,9 @@ This is one of the most important files in the entire mod, and is used for many 
 
 #3. Graphics
 
-  1. HD vs Original
-  2. Layered vs. Baked HD sprites
-  3. Pipeline
+  1. [HD vs Original](03_01_hd_vs_original.md)
+  2. [Layered vs. Baked HD sprites](03_02_layered_vs_baked.md)
+  3. [Pipeline](03_03_pipeline.md)
 
 #4. Defender Data
 
