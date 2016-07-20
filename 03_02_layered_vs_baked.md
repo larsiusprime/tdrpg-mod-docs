@@ -1,1 +1,1 @@
-##3.2 Layered vs Baked sprites
+##3.2 Layered vs. Baked HD sprites
