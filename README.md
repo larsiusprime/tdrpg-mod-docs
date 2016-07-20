@@ -1,7 +1,10 @@
 # tdrpg-mod-docs
 Mod documentation for the TDRPG engine (Defender's Quest)
 
-#0. [Finding, Installing, and Playing Mods](00.md)
+#0. Finding, Installing, and Playing Mods
+
+[How to find and install a mod](00.md)
+If all you want to do is play a mod, this is the only section you need to read!
 
 #1. Introduction
 
