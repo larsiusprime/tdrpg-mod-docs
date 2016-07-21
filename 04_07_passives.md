@@ -41,4 +41,4 @@ And specify how much in the stats table:
 <stats level="4" amount="0.50" />
 ```
 
-**NOTE:** *the amount is the TOTAL BONUS at that skill level, it doesn't cumulatively add all the previous ones. *
+**NOTE:** *the amount is the TOTAL BONUS at that skill level, it doesn't cumulatively add all the previous ones.*
