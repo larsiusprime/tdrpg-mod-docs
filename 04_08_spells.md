@@ -74,7 +74,7 @@ Now let's go look at spell definitions in `spells.xml`:
 	</spell>
 ```
 
-###<spell> tag
+###`<spell>` tag
 
 ```
 num        which slot the spell appears in for the mcguffin interface in battle
@@ -88,15 +88,15 @@ unique     if true, removes any other active spell's visual effects when this is
 txt        the description to show in the preview panel
 ```
 
-###<offset> tag
+###`<offset>` tag
 
 This simply affects the positioning of the visual. Units are in battle squares.
 
-###<values> tag
+###`<values>` tag
 
 Lets you specify default x, y, and z variable values for this spell. Can be override in the defender skill stat table.
 
-###<effect> tag
+###`<effect>` tag
 
 This is where you define the visual effect for the spell. Let's look at some examples:
 
