@@ -10,30 +10,30 @@ For now let's just treat all spells as hard-coded, and just look at how they are
 
 ```xml
 <skill name="lightning" type="attack" posture="offense">
-			<reqs level="1" skill="none" skill_lvl="0"/>
-			<info type="spell" spell="lightning"/>
-			<flavor type="magic" amount="1.0" time="0.0" rate="1.0" />
-		
-			<flavor type="psi_burn" amount="1.0" time="0.0" rate="1.0" />
-			<flavor type="undodgeable" amount="1.0" time="0.0" rate="1.0" />
+	<reqs level="1" skill="none" skill_lvl="0"/>
+	<info type="spell" spell="lightning"/>
+	<flavor type="magic" amount="1.0" time="0.0" rate="1.0" />
+
+	<flavor type="psi_burn" amount="1.0" time="0.0" rate="1.0" />
+	<flavor type="undodgeable" amount="1.0" time="0.0" rate="1.0" />
+	
+	<stats level="1" x="20" y="0" z="0" cost="10" cooldown="0.25" x_add="0.5" x_stat="attack"/>
+	<stats level="2" x="30" y="0" z="0" cost="10" cooldown="0.25" x_add="0.8" x_stat="attack"/>
+	<stats level="3" x="50" y="0" z="0" cost="10" cooldown="0.25" x_add="1.1" x_stat="attack"/>
+	<stats level="4" x="80" y="0" z="0" cost="10" cooldown="0.25" x_add="1.4" x_stat="attack"/>
+	<stats level="5" x="120" y="0" z="0" cost="10" cooldown="0.25" x_add="1.7" x_stat="attack"/>
+	<stats level="6" x="160" y="0" z="0" cost="10" cooldown="0.25" x_add="2.0" x_stat="attack"/>
+	<stats level="7" x="200" y="0" z="0" cost="10" cooldown="0.25" x_add="2.3" x_stat="attack"/>
+	<stats level="8" x="250" y="0" z="0" cost="10" cooldown="0.25" x_add="2.6" x_stat="attack"/>
+	<stats level="9" x="300" y="0" z="0" cost="10" cooldown="0.25" x_add="2.9" x_stat="attack"/>
+	<stats level="10" x="360" y="0" z="0" cost="10" cooldown="0.25" x_add="3.2" x_stat="attack"/>
+	<stats level="11" x="420" y="0" z="0" cost="10" cooldown="0.25" x_add="3.5" x_stat="attack"/>
+	<stats level="12" x="480" y="0" z="0" cost="10" cooldown="0.25" x_add="3.8" x_stat="attack"/>
+	<stats level="13" x="550" y="0" z="0" cost="10" cooldown="0.25" x_add="4.1" x_stat="attack"/>
+	<stats level="14" x="640" y="0" z="0" cost="10" cooldown="0.25" x_add="4.4" x_stat="attack"/>
+	<stats level="15" x="730" y="0" z="0" cost="10" cooldown="0.25" x_add="4.7" x_stat="attack"/>
 			
-			<stats level="1" x="20" y="0" z="0" cost="10" cooldown="0.25" x_add="0.5" x_stat="attack"/>
-			<stats level="2" x="30" y="0" z="0" cost="10" cooldown="0.25" x_add="0.8" x_stat="attack"/>
-			<stats level="3" x="50" y="0" z="0" cost="10" cooldown="0.25" x_add="1.1" x_stat="attack"/>
-			<stats level="4" x="80" y="0" z="0" cost="10" cooldown="0.25" x_add="1.4" x_stat="attack"/>
-			<stats level="5" x="120" y="0" z="0" cost="10" cooldown="0.25" x_add="1.7" x_stat="attack"/>
-			<stats level="6" x="160" y="0" z="0" cost="10" cooldown="0.25" x_add="2.0" x_stat="attack"/>
-			<stats level="7" x="200" y="0" z="0" cost="10" cooldown="0.25" x_add="2.3" x_stat="attack"/>
-			<stats level="8" x="250" y="0" z="0" cost="10" cooldown="0.25" x_add="2.6" x_stat="attack"/>
-			<stats level="9" x="300" y="0" z="0" cost="10" cooldown="0.25" x_add="2.9" x_stat="attack"/>
-			<stats level="10" x="360" y="0" z="0" cost="10" cooldown="0.25" x_add="3.2" x_stat="attack"/>
-			<stats level="11" x="420" y="0" z="0" cost="10" cooldown="0.25" x_add="3.5" x_stat="attack"/>
-			<stats level="12" x="480" y="0" z="0" cost="10" cooldown="0.25" x_add="3.8" x_stat="attack"/>
-			<stats level="13" x="550" y="0" z="0" cost="10" cooldown="0.25" x_add="4.1" x_stat="attack"/>
-			<stats level="14" x="640" y="0" z="0" cost="10" cooldown="0.25" x_add="4.4" x_stat="attack"/>
-			<stats level="15" x="730" y="0" z="0" cost="10" cooldown="0.25" x_add="4.7" x_stat="attack"/>
-						
-		</skill>
+</skill>
 ```
 
 Mcguffin Spells don't have anything in the info tag other than the type, which is "spell."
@@ -168,4 +168,4 @@ ally          for a boost verb, whether to target allies or not
 not_mcguffin  if true, mcguffins are not targeted
 not_ally      if true, allies are not targeted
 scrutiny      value between 0.0 and 1.0 -- at 1.0 it always targets the closest target, at 0.0 it picks completely randomly from anything in range
-
+```
