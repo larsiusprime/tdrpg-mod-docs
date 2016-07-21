@@ -56,7 +56,7 @@ Legal technique types:
 
 ```
   "spell"                - the skill is a mcguffin spell
-  "guided_melee"         - basic melee attack (there is no "unguided_melee")
+  "melee"                - melee attack
   "guided_projectile"    - basic projectile attack, has "homing"
   "spread_projectile"    - spreads out multiple shots in one burst, no homing
   "unguided_projectile"  - unguided projectile, no homing
