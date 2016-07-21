@@ -65,9 +65,9 @@ Legal technique types:
 ```
 
 ####Melee Attacks
-All melee attacks use the "guided_melee" type. Basically, any targeted enemy in the character's range (or melee range if they have dual-range) will be hit by a melee attack as soon as it is fired.
+All melee attacks use the "melee" type. Basically, any targeted enemy in the character's range (or melee range if they have dual-range) will be hit by a melee attack as soon as it is fired.
 
-If you want to hit one target multiple times, specify single_target="true" and set num_attacks in the stats table to a value higher than one. If you want to spread several attacks out over multiple targets, use single_target="false" with multiple num_attacks. Specifying hitall="true" will basically give you an AOE melee attack.
+If you want to hit one target multiple times, specify `single_target="true"` and set `num_attacks` in the stats table to a value higher than one. If you want to spread several attacks out over multiple targets, `use single_target="false"` with multiple num_attacks. Specifying `hitall="true"` will basically give you an AOE melee attack.
 
 ####Projectiles
 Projectiles come in three varieties - guided, unguided, and spread. If guided or unguided, multiple attacks will result in multiple projectiles, and single_target=true/false will determine whether that all goes to one enemy or fired around more generously. Giving this attack a "strike_through" flavor will let it pierce a number of targets up to the "amount" value. Using "spread_projectile" as the type will fire a number of shots equal to the number of attacks, all at once.
