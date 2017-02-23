@@ -161,6 +161,8 @@ You can use many different kinds of legal, illegal, and water terrains in a sing
 
 In my level, I created some shortcuts on my enemy paths and then filled them with water. Now when special water enemies show up, they can take these unexpected shortcuts and catch the player by surprise!
 
+![battle editor water](/images/battle_editor_water.png)
+
 ##Part 6: unleashing the hordes!
 
 See that second bar on the right? That's a wave bar – the place where you set how many enemies come charging at Azra from where!
