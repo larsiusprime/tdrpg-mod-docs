@@ -22,6 +22,8 @@ First things first, you need to launch the LevelEditor!
 
 Okay, now you've got the editor running, you need to create a new project – a mod that will contain all of the bonus battles you're going to make! Click that new project button!
 
+![editor](/images/editor.png)
+
 You're going to be asked to give name for your mod – this is just a simple code identifier that the game will use as a handle for your project. I'm calling mine "legendsofawesome."
 
 Next, it's going to ask you for a project title. The title is the thing that players are actually going to see. Mine is "Legends of Awesome."
