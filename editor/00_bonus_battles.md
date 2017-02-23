@@ -1,6 +1,6 @@
 #Bonus Battle Tutorial
 
-by James Cavin
+by James Cavin  
 edited by Lars Doucet
 
 ##An awesome introduction
