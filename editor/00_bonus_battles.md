@@ -167,9 +167,19 @@ In my level, I created some shortcuts on my enemy paths and then filled them wit
 
 See that second bar on the right? That's a wave bar – the place where you set how many enemies come charging at Azra from where!
 
-At the far left of the bar, there's all of the symbols for the enemy spawn points – click on one of these symbols to set the enemies in this wave to come from this spawn point. A single wave of enemies can come from multiple spawn points. I'm clicking both of the spawn points I have on the map, so my wave is going to spawn from both locations! (You can click on a spawn point symbol again to unselect that spawn point).
+![battle editor waves](/images/battle_editor_waves.png)
 
-Next, you'll see a big button that says "Normal." This is where you set what kind of enemy this wave is made up of. Go ahead and click on it. BAM! That's a list of every enemy in the game, son! HORDES OF EVIL ARE AT YOUR DISPOSAL.
+At the far left of the bar, there's all of the symbols for the enemy spawn points – click on one of these symbols to tell the enemies in this wave to emerge from this spawn point.
+
+![battle editor select wave spawn points](/images/battle_editor_waves_spawns.png)
+
+A single wave of enemies can come from multiple spawn points. I'm clicking both of the spawn points I have on the map, so my wave is going to spawn from both locations! (You can click on a spawn point symbol again to unselect that spawn point).
+
+Next, you'll see a big button that says "Normal." This is where you set what kind of enemy this wave is made up of. Go ahead and click on it. 
+
+![battle editor select enemy type](/images/battle_editor_enemies.png)
+
+BAM! That's a list of every enemy in the game, son! HORDES OF EVIL ARE AT YOUR DISPOSAL.
 
 I set my wave of enemies to the Attacker type (the red revenant that claw defenders as they walk past), because I like it when my defenders get punched back, but that's just me. You have dozens of enemies to pick from – do whatever you want! You can even select sheep!
 
