@@ -1,6 +1,7 @@
 #Bonus Battle Tutorial
 
 by James Cavin
+edited by Lars Doucet
 
 ##An awesome introduction
 
@@ -346,7 +347,7 @@ We hit start and... hey! Where'd our save files go?
 
 ![Defender's Quest with no saves](/images/dqemptysaves.png)
 
-Well, the thing is that mods technically let you change almost *anything* about the game, which means that save files from the regular game aren't guaranteed to work with it, so we make sure that each mod has its own save directory that's totally independent from the regular game. Just to make sure. The stuff we made in this tutorial should be totally safe, so let's go ahead and import a save file from the regular game.
+Well, the thing is that mods technically let you change almost *anything* about the game, which means that save files from the regular game aren't guaranteed to work with it, so we make sure that each mod has its own save directory that's totally independent from the regular game, just to be sure. The stuff we made in this tutorial should be totally safe, though, so let's go ahead and import a save file from the regular game.
 
 ![Import save file](/images/dqsaveimport.png)
 
