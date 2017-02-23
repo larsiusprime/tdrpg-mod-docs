@@ -49,11 +49,13 @@ Now to add a bonus battle!
 
 It's going to ask you for a battle ID – this is just the codename the game uses internally, so it doesn't need to be anything fancy. (Don't worry, you can give it a human-readable title befitting its awesomeness later.)
 
-![selecting a battle id](/images/battle_id.png)
-
 I'm naming mine "awesomeintro."
 
+![selecting a battle id](/images/battle_id.png)
+
 Wow! This thing looks kind of complicated!
+
+![battle editor](/images/battle_editor.png)
 
 Don't worry, we're going to break it down into nice bite-size pieces!
 
@@ -73,13 +75,25 @@ As you can see, it's not too much to look at right now. There's a big star marki
 
 Glad you asked! Take a look at the upper left-hand corner. See those 4 smaller black squares? This is where you're going to craft your murderous maze of magnificence by painting the different kinds of terrains that make up a Defender's Quest bonus battle.
 
-The first pane allows you to place Azra's starting location, as well as the different spawn points for enemies. Let's go ahead and move Azra to a more interesting place than she is right now. See all the symbols underneath the pane? These are the different enemy spawn points (and Azra's start location) you can select and place. Click on the big 1 to select Azra's location. Now you can click anywhere on this pane to put Azra there!
+The first pane allows you to place Azra's starting location, as well as the different spawn points for enemies. Let's go ahead and move Azra to a more interesting place than she is right now. See all the symbols underneath the pane? These are the different enemy spawn points (and Azra's start location) you can select and place. Click on the big 1 to select Azra's location. 
+
+![selecting summoner location](/images/battle_editor_mcgloc.png)
+
+Now you can click anywhere on this pane to put Azra there!
+
+![placing summoner location](/images/battle_editor_mcgloc2.png)
 
 I put her right in the middle of my map, but you are welcome to put her where ever you want – it's your canvas of carnage!
 
-(On a side note, that big 1 you clicked on is a big 1 because, eventually, you will also be able to place second and third summoners, like Zelemir and Tletl Meztli!)
+(On a side note, that big 1 you clicked on is a big 1 because, eventually, you will also be able to place second and third summoners, like Zelemir and Tletl-Meztli!)
 
-You can also spice things up by adding more enemy spawn points! Just click on the symbol you want to place, and then click anywhere on the locations pane to put the spawn point there! (You can right-click to erase a placed symbol, in case you made things too crazy.)
+You can also spice things up by adding more enemy spawn points! Just click on the symbol you want to place...
+
+![selecting enemy location](/images/battle_editor_enemyloc.png)
+
+and then click anywhere on the locations pane to put the spawn point there! (You can right-click to erase a placed symbol, in case you made things too crazy.)
+
+![placing enemy location](/images/battle_editor_enemyloc2.png)
 
 ##Part 4: Landscaping your playground of death
 
