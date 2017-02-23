@@ -129,6 +129,8 @@ Water is kind of similar – the player can't put defenders on water, and most ene
 
 Go ahead and play around with placing some illegal terrain and water. It's your bonus battle, go nuts! (Just remember that each enemy spawn point still needs a path to Azra.)
 
+![multiple terrain types](/images/battle_editor_multiterrain.png)
+
 As you can see in the preview, all of the panes layer to create the final level. You can even click the little left and right arrows over a pane to change the order in which they're layered on top of one another. When you have multiple terrains on top of each other, it's the topmost one that takes effect. (So an invalid tile on top of a valid tile means the terrain is invalid, while a valid tile on top of an invalid tile makes it valid.) You can always tell what kind of terrain the player will get by just looking at the preview – whatever you can see is what there is.
 
 So what's that little "…" button over each pane? Clicking this button opens up a list of all of the terrains in the game (which we've handily presorted for you because that's how much we care). You didn't think we're going to stick you with the default grass, rocks, and water, did you? It's your bonus battle, pick whatever kinds of terrain you want! (You can even click the "…" button over the start locations pane to set what the empty background looks like.)
