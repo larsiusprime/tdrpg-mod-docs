@@ -138,27 +138,39 @@ You'll notice that two new buttons pop-up next to the "Special" button – "PSI 
 
 ![item editor, psi tax & difficulty filter for specials](/images/item_editor_psi_difficulty.png)
 
-The PSI tax gives a penalty to Azra's PSI when this item is equipped. It's a good way of balancing superpowerful items (particularly Azra's books). I don't think the Guard Herald needs a handicap, so I leave the PSI tax at zero.
+The PSI tax gives a penalty to the amount of PSI Azra gains when enemies are killed, whenever this item is equipped in a particular battle. It's a good way of balancing superpowerful items (particularly Azra's books). I don't think the Guard Herald needs a handicap, so I leave the PSI tax at zero.
 
 The "if difficulty is" button is another interesting way of balancing items – you can make it so that specials only kick in at certain difficulties. So for instance, an item can get even more awesome when playing on extreme! For the moment, I'm going to leave this set on "any."
 
 Okay, on to the good stuff! The "vs. attack flavor" button lets you decide what exactly your item is going to be strong against. Go ahead and click on it!
 
+![item editor, select "strong vs" button](/images/item_editor_strong_vs.png)
+
 As you can see, you can select from different types of damage OR from different types of enemy. For example, you could be strong against RANGED damage OR you could be strong against SHEEP type enemies. Is there a specific type of enemy you hate? This is the place to stick it to them!
+
+![item editor, selection menu for "strong vs"](/images/item_editor_strong_vs_melee.png)
 
 I'm going to select "melee."
 
-The next thing I can select is "damage interaction." This lets me decide how exactly my item is going to react to the kind of damage it's strong against. Go ahead and click it. As you can see, we've got a couple of options: we can apply a damage multiplier, dodge, or save.
+The next thing I can select is "damage interaction." This lets me decide how exactly my item is going to react to the kind of damage it's strong against. Go ahead and click it.
 
-The damage multiplier lets us decrease (or if we want to create a downside to the item, increase) the incoming damage that the item is strong against.
+![item editor, "strong vs" interaction button](/images/item_editor_interaction.png)
+
+As you can see, we've got a couple of options: we can apply a damage multiplier, dodge, or save.
+
+![item editor, "strong vs" interaction menu](/images/item_editor_interaction_menu.png)
+
+Damage multiplier lets us decrease (or if we want to create a downside to the item, increase) the incoming damage that the item is strong against.
 
 Dodge gives a percent chance to completely avoid the incoming damage that the item is strong against. (If you set the chance to 100%, the defender equipping this item will ALWAYS dodge incoming attacks of the flavor that they are strong against, making them de facto INVINCIBLE against that type of damage.)
 
 "Save" is a little bit tricky. If your health is above a certain percentage, AND you take damage of the type you're strong against THAT WOULD ORDINARILY KILL YOU, you get "saved" instead – your health is reduced to 1, but hey, you're still alive!
 
-I'm going to go with a straightforward damage multiplier for the Guard Herald. Incoming melee damage is multiplied by .5 (a.k.a. cut in half). It's worth noting that you can make this damage multiplier greater than 1 to take MORE damage from a specific attack type or enemy type, so you can use the Strong special to actually create weaknesses!
+I'm going to go with a straightforward damage multiplier for the Guard Herald. Incoming melee damage is multiplied by 0.5 (a.k.a. cut in half). It's worth noting that you can make this damage multiplier greater than 1 to take MORE damage from a specific attack type or enemy type, so you can use the Strong special to actually create weaknesses!
 
 Click save and BAM! Here's the Guard Herald! It gives a 50 bonus to defense_abs AND reduces all incoming melee damage by half! Now that's pretty darn nifty!
+
+![item editor, save](/images/item_editor_special_save.png)
 
 ##But that's not all!
 
