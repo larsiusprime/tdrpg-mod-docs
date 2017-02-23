@@ -140,9 +140,11 @@ So what's that little "…" button over each pane?
 
 Clicking this button opens up a list of all of the terrains in the game (which we've handily presorted for you because that's how much we care). 
 
-![battle editor blue sand](/images/battle_editor_blue_sand.png)
+![battle editor pick terrian](/images/battle_editor_pick_terrain.png)
 
 You didn't think we're going to stick you with the default grass, rocks, and water, did you? It's your bonus battle, pick whatever kinds of terrain you want! (You can even click the "…" button over the start locations pane to set what the empty background tile should be.)
+
+![battle editor blue sand](/images/battle_editor_blue_sand.png)
 
 The second-to-last category of terrain, "art," is special art pieces we used in some of our story battles. They don't have any terrain effects, but you can use them to add some flavor to your battles.
 
