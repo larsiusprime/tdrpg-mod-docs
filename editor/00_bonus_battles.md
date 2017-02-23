@@ -316,6 +316,10 @@ This works exactly like the title field – just paste the text you want in there,
 
 And that's it!
 
+Wait, one last thing... don't forget to save your changes.
+
+![battle editor save](/images/battle_editor_save.png)
+
 YOUR BONUS BATTLE IS READY FOR THE WORLD!!!
 
 ##Part 9… Play that sexy thang!
