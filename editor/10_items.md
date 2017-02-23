@@ -1,5 +1,8 @@
 #Forge of the gods: how to craft super sweet user-made items!
 
+by James Cavin  
+edited by Lars Doucet
+
 ##An equally awesome intro
 
 All right, so you've got a totally supersweet bonus battle finished, but you can't help the feeling that something's missing… How about A TOTALLY FREAKING RAD UNIQUE ITEM WITH SPECIAL ABILITIES?!
