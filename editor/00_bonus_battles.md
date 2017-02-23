@@ -133,14 +133,29 @@ Go ahead and play around with placing some illegal terrain and water. It's your 
 
 As you can see in the preview, all of the panes layer to create the final level. You can even click the little left and right arrows over a pane to change the order in which they're layered on top of one another. When you have multiple terrains on top of each other, it's the topmost one that takes effect. (So an illegal tile on top of a legal tile means the tile counts as illegal for gameplay purposes, while a legal tile on top of an illegal tile makes it count as legal.) You can always tell what kind of terrain the final tile will count as by looking at the preview – whatever shows up on top is what it is.
 
-So what's that little "…" button over each pane? Clicking this button opens up a list of all of the terrains in the game (which we've handily presorted for you because that's how much we care). You didn't think we're going to stick you with the default grass, rocks, and water, did you? It's your bonus battle, pick whatever kinds of terrain you want! (You can even click the "…" button over the start locations pane to set what the empty background looks like.)
+So what's that little "…" button over each pane? 
 
-The last category of terrain, "art," is special art pieces we used in some of our story battles. They don't have any terrain effects, but you can use them to add some flavor to your battles.
+![change terrain button](/images/battle_editor_ellipses.png)
 
-If you don't like a pane, you can erase the whole thing with the X button over it. You can even create more panes with the gigantic + to the right!
+Clicking this button opens up a list of all of the terrains in the game (which we've handily presorted for you because that's how much we care). 
+
+![battle editor blue sand](/images/battle_editor_blue_sand.png)
+
+You didn't think we're going to stick you with the default grass, rocks, and water, did you? It's your bonus battle, pick whatever kinds of terrain you want! (You can even click the "…" button over the start locations pane to set what the empty background tile should be.)
+
+The second-to-last category of terrain, "art," is special art pieces we used in some of our story battles. They don't have any terrain effects, but you can use them to add some flavor to your battles.
+
+If you don't like a pane, you can erase the whole thing with the X button over it. 
+
+![battle editor delete layer](/images/battle_editor_x.png)
+
+You can even create more panes with the gigantic + to the right!
+
+![battle editor add layer](/images/battle_editor_plus.png)
 
 You can use many different kinds of legal, illegal, and water terrains in a single battle. Try using different layers to create strange artistic effects!
 
+![battle editor hanging gardens](/images/battle_editor_hanging_gardens.png)
 
 ##A hint about water
 
