@@ -112,7 +112,7 @@ Now, to attach them to my item! Simply click the "Change" button underneath an i
 
 BAM! Now your item has gorgeous unique art!
 
-![item editor with custom graphics](/images/item_editor_custom_graphic.png)
+![item editor with custom graphics](/images/item_editor_custom_graphics.png)
 
 ##Special abilities:
 
