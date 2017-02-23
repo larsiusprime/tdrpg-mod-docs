@@ -231,21 +231,43 @@ Okay, so we've got a bunch of enemies for the player to mash now. The only thing
 
 This takes us to the first bar on the right side of the screen – this is where we control various battle settings.
 
+![battle editor settings](/images/battle_editor_settings.png)
+
 "First wait" is how much time the player has at the start of the battle before enemy waves appear. I'm going to give my players a solid 10 seconds.
 
-Next, we can set how many gold and blue stars are required for this battle to become available in the bonus battle menu. (The requirement can be set independently for new game plus, so you can make your battle harder or easier to unlock on a second play through of the game.) The battle I made isn't super scary, so I'm going to set it to 20 blue stars. Players will be able to play my battle once they've earned 20 blue stars through story battles! For new game plus, I'm changing the requirement to gold stars – these are the big leagues kiddo, step up your game!
+![battle editor set first wait](/images/battle_editor_first_wait2.png)
 
-Next, you have the "endless" checkbox. Clicking this will turn your battle into an endless battle – the waves you've designed will repeat infinitely. Each time they repeat, the levels of the monsters will increase by the amount you enter in the "Endless level up" field. For the moment, I just want to make a normal battle – I'll come back and show you guys the ins and outs of endless battles later.
+Next, we can set how many gold and blue stars are required for this battle to become available in the bonus battle menu. 
+
+![battle editor set unlock stars](/images/battle_editor_star_button.png)
+
+(The requirement can be set independently for new game plus, so you can make your battle harder or easier to unlock on a second play through of the game.) The battle I made isn't super scary, so I'm going to set it to 20 blue stars. Players will be able to play my battle once they've earned 20 blue stars through story battles! For new game plus, I'm changing the requirement to gold stars – these are the big leagues kiddo, step up your game!
+
+![battle editor change unlock stars](/images/battle_editor_stars.png)
+
+Next, you have the "endless" checkbox. 
+
+![battle editor endless](/images/battle_editor_endless.png)
+
+Clicking this will turn your battle into an endless battle – the waves you've designed will repeat infinitely. Each time they repeat, the levels of the monsters will increase by the amount you enter in the "Endless level up" field. For the moment, I just want to make a normal battle – I'll come back and show you guys the ins and outs of endless battles later.
 
 Finally, we get to the good stuff: REWARDS!
 
-You'll notice there's 2 reward buttons. For normal battles, the first button is the reward players get for winning the battle with Azra taking some hits (what would earn you a blue star in a story battle). The second button is for a perfect score – battle beaten without a single enemy getting to Azra.
+You'll notice there's 2 reward buttons. For normal (non-endless) battles, the first button is the reward players get for winning the battle with Azra taking some hits (what would earn you a blue star in a story battle). The second button is for a perfect score – battle beaten without a single enemy getting to Azra (a gold star in story battles).
+
+![battle editor reward buttons](/images/battle_editor_reward_buttons.png)
+
+Clicking one of these brings up a menu to adjust the reward settings.
+
+![battle editor reward settings](/images/battle_editor_reward_settings.png)
 
 You'll also notice that each button lets you set rewards independently for the regular play through and new game plus, so you can make the battle have much higher payouts in new game plus!
 
-The "type" button lets you pick what kind of reward the player is going to get: experience, "gold" (the in game currency is actually scrap, but in the game's code gets called gold), an item, or nothing.
+The "type" button lets you pick what kind of reward the player is going to get: experience, "gold" (the in-game currency is actually "scrap", but in the game's code it's just called "gold"), an item, or nothing.
 
 We'll get into items later – for the moment, I'm making my rewards hard, cold cash! A normal pass gets you 500 gold, and a perfect pass gets you 1500! GETTING PAID.
+
+![battle editor reward settings](/images/battle_editor_reward_settings2.png)
 
 ##Part 8: put a bow on it
 
@@ -253,13 +275,38 @@ All right, you've got a battle with spawn points, trails, shortcuts, hordes of e
 
 First of all, you need a title befitting the resplendent awesomeness of your creation. TO THE TITLE BUTTON!
 
+![battle editor title button](/images/battle_editor_title_button.png)
+
+**NOTE TO SELF: Fix crash bug that happens here**
+
 Go to the upper right-hand of the screen, and click the big button labeled "title." This gives you a place to enter a title for the battle – the human readable name that players will see when they select your shining gem of maze-based violence. This will pop up a weird little screen that looks like this.
 
-Click the flag at the top to select the language you are entering. (Sorry to all of you Australians, New Zealanders, and various British Islanders – we only speak American here!)
+![battle editor change title](/images/battle_editor_title.png)
 
-Next, PASTE the text you want into the text field. (For a wide variety of technical reasons we don't allow you to type directly into the field – I apologize, but you'll just have to type out your title in one of the bajillion text editors available and then copy and paste it into the title field.)
+Click the flag at the top to select the language you are entering text for. (Sorry to all of you Australians, New Zealanders, and various British Islanders – we only speak American here!)
+
+You can enter the text directly by just typing on your keyboard, but if you have any trouble with certain language/keyboard combinations (such as Chinese, Japanese, Korean, etc), we have a safety fallback - you can open an external editor, enter the text correctly there, copy it to your clipboard, and then click "PASTE from clipboard" in the editor to get the text directly, with no input shenanigans getting in the way.
 
 My title is "The Awesomeness Begins…"
+
+![battle editor enter english title](/images/battle_editor_title2.png)
+
+In Spanish that'd probably be something like "Comienza la Awesomeness..."
+(I skipped consulting with our Spanish translator on that one.)
+
+![battle editor enter spanish title](/images/battle_editor_title3.png)
+
+Let me give an example of how you'd enter a Chinese title. Rather than accidentally writing something 
+that translates to "Fart sauce" or whatever, I'll just cheap out and use the title of the famous Chinese
+Epic, "Journey to the West." We can find the Chinese characters for that [on Wikipedia](https://en.wikipedia.org/wiki/Journey_to_the_West):
+
+![journey to the west](/images/journeytothewest.png)
+
+I select that text, right click, copy. Now it's in my system clipboard. I click the chinese flag with
+the red background (for Simplified Chinese) and then click the "PASTE from clipboard" button and now
+I've got the Chinese text in. You can do the same for any language that's tricky to enter text directly for.
+
+![battle editor enter chinese title](/images/battle_editor_title4.png)
 
 Next, give your battle a little bit of descriptive flavor text! Click the BLURB BUTTON!
 
