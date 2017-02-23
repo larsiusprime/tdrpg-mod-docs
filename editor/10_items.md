@@ -8,9 +8,13 @@ All right, so you've got a totally supersweet bonus battle finished, but you can
 
 Okay, first things first, you need to fire up that level editor again!
 
+![editor with project loaded](/images/project_loaded2.png)
+
 (The last project you were working on will load automatically.)
 
 See that "New Item" button at the bottom of the main menu? CLICK THAT SUCKER!
+
+![editor new item](/images/editor_newitem.png)
 
 The game will ask you for an item ID – like with battles, the item ID is just the internal codename the game uses to keep track of the item. Players aren't ever going to see it, so it doesn't need to be anything human readable. I'm making my ID "guardherald", but you're free to make your item ID whatever the heck you want – this is your party!
 
