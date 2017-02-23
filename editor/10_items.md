@@ -54,9 +54,9 @@ To the right, you'll see a text field with numeric stepper buttons – this is t
 
 ![item editor, set stat](/images/item_editor_defense_abs.png)
 
-This lets you know that the bonus you enter applies to the `defense_abs` stat, which means "absolute defense" -- the exact number of points removed from an incoming attack*. (Which stat is affected changes depending on the kind of item you're making – if we were making a sword, the stat would be `attack`.)
+This lets you know that the bonus you enter applies to the `defense_abs` stat, which means "absolute defense*" -- the exact number of points removed from an incoming attack*. (Which stat is affected changes depending on the kind of item you're making – if we were making a sword, the stat would be `attack`.)
 
-\**The other kind of defense, `defense_mult`, lets you express damage as a multiplier. It's not supported yet.*
+\*The other kind of defense, `defense_mult`, lets you express damage as a multiplier. It's not supported yet.*
 
 I want the Guard Herald to be pretty awesome, even in new game plus, so I'm going to make its bonus 50.
 
