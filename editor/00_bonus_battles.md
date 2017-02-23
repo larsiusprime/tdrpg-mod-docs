@@ -18,7 +18,7 @@ So, hold onto your giblets and get ready to make your very own BONUS BATTLE MOD!
 
 First things first, you need to launch the LevelEditor!
 
-![launch editor option](larsiusprime.github.com/tdrpg-mod-docs/editor/images/launch_editor.png)
+![launch editor option](/images/launch_editor.png)
 
 Okay, now you've got the editor running, you need to create a new project – a mod that will contain all of the bonus battles you're going to make! Click that new project button!
 
