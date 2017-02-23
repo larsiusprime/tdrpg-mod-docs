@@ -9,9 +9,9 @@ Hello all you bright and beautiful star children! Today we're going to talk abou
 
 More specifically, we're going to be talking about HOW YOU CAN MAKE THEM!
 
-That's right, Defender's Quest now has a… (drumroll, please) BONUS BATTLE EDITOR!
+That's right, Defender's Quest now has aâ€¦ (drumroll, please) BONUS BATTLE EDITOR!
 
-You see, as we create tools for Defender's Quest 2 development, we thought we'd retrofit them to work with DQ 1 and give them to all you adoring fans! Oh snap! (PLUS, as we expand tools for DQ 2 development, you'll get those expanded features too, so the tools we’re giving you are ONLY GOING TO GET BETTER WITH TIME! Double snap!)
+You see, as we create tools for Defender's Quest 2 development, we thought we'd retrofit them to work with DQ 1 and give them to all you adoring fans! Oh snap! (PLUS, as we expand tools for DQ 2 development, you'll get those expanded features too, so the tools weâ€™re giving you are ONLY GOING TO GET BETTER WITH TIME! Double snap!)
 
 So, hold onto your giblets and get ready to make your very own BONUS BATTLE MOD!
 
@@ -21,11 +21,11 @@ First things first, you need to launch the LevelEditor!
 
 ![launch editor option](/images/launch_editor.png)
 
-Okay, now you've got the editor running, you need to create a new project – a mod that will contain all of the bonus battles you're going to make! Click that new project button!
+Okay, now you've got the editor running, you need to create a new project â€“ a mod that will contain all of the bonus battles you're going to make! Click that new project button!
 
 ![editor](/images/editor.png)
 
-You're going to be asked to give name for your mod – this is just a simple code identifier that the game will use as a handle for your project. I'm calling mine "legendsofawesome."
+You're going to be asked to give name for your mod â€“ this is just a simple code identifier that the game will use as a handle for your project. I'm calling mine "legendsofawesome."
 
 ![selecting a project id](/images/project_id.png)
 Next, it's going to ask you for a project title. The title is the thing that players are actually going to see. Mine is "Legends of Awesome."
@@ -46,9 +46,9 @@ That's right! We are INSIDE YOUR PROJECT!
 
 Now to add a bonus battle!
 
-…Click the button that says "new battle."
+â€¦Click the button that says "new battle."
 
-It's going to ask you for a battle ID – this is just the codename the game uses internally, so it doesn't need to be anything fancy. (Don't worry, you can give it a human-readable title befitting its awesomeness later.)
+It's going to ask you for a battle ID â€“ this is just the codename the game uses internally, so it doesn't need to be anything fancy. (Don't worry, you can give it a human-readable title befitting its awesomeness later.)
 
 I'm naming mine "awesomeintro."
 
@@ -84,7 +84,7 @@ Now you can click anywhere on this pane to put Azra there!
 
 ![placing summoner location](/images/battle_editor_mcgloc2.png)
 
-I put her right in the middle of my map, but you are welcome to put her where ever you want – it's your canvas of carnage!
+I put her right in the middle of my map, but you are welcome to put her where ever you want â€“ it's your canvas of carnage!
 
 (On a side note, that big 1 you clicked on is a big 1 because, eventually, you will also be able to place second and third summoners, like Zelemir and Tletl-Meztli!)
 
@@ -98,9 +98,9 @@ You can also spice things up by adding more enemy spawn points! Just click on th
 
 ##Part 4: Landscaping your playground of death
 
-Okay, so we've got Azra and a bunch of enemy spawn points on the map, but there's still not much to look at – I mean, we don't even have any place to put defenders down!
+Okay, so we've got Azra and a bunch of enemy spawn points on the map, but there's still not much to look at â€“ I mean, we don't even have any place to put defenders down!
 
-Time to change all that! You see this pane to the right? This is a terrain pane – the place where you paint new kinds of terrain on to the battle! Right now, the selected terrain is LEGAL TERRAIN (grass). 
+Time to change all that! You see this pane to the right? This is a terrain pane â€“ the place where you paint new kinds of terrain on to the battle! Right now, the selected terrain is LEGAL TERRAIN (grass). 
 
 ![legal terrain](/images/battle_editor_grass.png)
 
@@ -110,13 +110,13 @@ Pro tip: hold down the space button while clicking to fill open spaces! Go ahead
 
 ![fill terrain](/images/battle_editor_grass_fill.png)
 
-Well shoot, we've got a problem: enemies can't walk on terrain, and we just filled the whole screen with it! This battle can't work – enemies will spawn and have no space to walk, leading to weird bugs.
+Well shoot, we've got a problem: enemies can't walk on terrain, and we just filled the whole screen with it! This battle can't work â€“ enemies will spawn and have no space to walk, leading to weird bugs.
 
 Fortunately, we can right-click to erase terrain. Using this amazing ability, let's make some trails for our poor little revenant. Just erase terrain in a path from your different enemy spawn points to Azra's location.
 
 ![erase terrain](/images/battle_editor_grass_erase.png)
 
-CONGRATULATIONS! You've created a fully functional bonus battle – the enemies can get to Azra, and there's legal terrain for the player to place defenders on!
+CONGRATULATIONS! You've created a fully functional bonus battle â€“ the enemies can get to Azra, and there's legal terrain for the player to place defenders on!
 
 ##Part 5: what about those other panes?
 
@@ -124,17 +124,17 @@ So you're probably wondering what those other 2 panes are for. Well, as you can 
 
 By default, they are ILLEGAL TERRAIN and WATER.
 
-The player can't place defenders on illegal terrain, AND enemies can't walk on it. You can put down illegal terrain to make the level harder – decreasing the places where player can put their defenders.
+The player can't place defenders on illegal terrain, AND enemies can't walk on it. You can put down illegal terrain to make the level harder â€“ decreasing the places where the player can put their defenders.
 
-Water is kind of similar – the player can't put defenders on water, and most enemies can't walk on it. HOWEVER, special water enemies can walk through water just like it's a regular path!
+Water is kind of similar â€“ the player can't put defenders on water, and most enemies can't walk on it. HOWEVER, special water enemies can walk through water just like it's a regular path!
 
 Go ahead and play around with placing some illegal terrain and water. It's your bonus battle, go nuts! (Just remember that each enemy spawn point still needs a path to Azra.)
 
 ![multiple terrain types](/images/battle_editor_multiterrain.png)
 
-As you can see in the preview, all of the panes layer to create the final level. You can even click the little left and right arrows over a pane to change the order in which they're layered on top of one another. When you have multiple terrains on top of each other, it's the topmost one that takes effect. (So an illegal tile on top of a legal tile means the tile counts as illegal for gameplay purposes, while a legal tile on top of an illegal tile makes it count as legal.) You can always tell what kind of terrain the final tile will count as by looking at the preview – whatever shows up on top is what it is.
+As you can see in the preview, all of the panes layer to create the final level. You can even click the little left and right arrows over a pane to change the order in which they're layered on top of one another. When you have multiple terrains on top of each other, it's the topmost one that takes effect. (So an illegal tile on top of a legal tile means the tile counts as illegal for gameplay purposes, while a legal tile on top of an illegal tile makes it count as legal.) You can always tell what kind of terrain the final tile will count as by looking at the preview â€“ whatever shows up on top is what it is.
 
-So what's that little "…" button over each pane? 
+So what's that little "â€¦" button over each pane? 
 
 ![change terrain button](/images/battle_editor_ellipses.png)
 
@@ -142,7 +142,7 @@ Clicking this button opens up a list of all of the terrains in the game (which w
 
 ![battle editor pick terrian](/images/battle_editor_pick_terrain.png)
 
-You didn't think we're going to stick you with the default grass, rocks, and water, did you? It's your bonus battle, pick whatever kinds of terrain you want! (You can even click the "…" button over the start locations pane to set what the empty background tile should be.)
+You didn't think we're going to stick you with the default grass, rocks, and water, did you? It's your bonus battle, pick whatever kinds of terrain you want! (You can even click the "â€¦" button over the start locations pane to set what the empty background tile should be.)
 
 ![battle editor blue sand](/images/battle_editor_blue_sand.png)
 
@@ -170,11 +170,11 @@ In my level, I created some shortcuts on my enemy paths and then filled them wit
 
 ##Part 6: unleashing the hordes!
 
-See that second bar on the right? That's a wave bar – the place where you set how many enemies come charging at Azra from where!
+See that second bar on the right? That's a wave bar â€“ the place where you set how many enemies come charging at Azra from where!
 
 ![battle editor waves](/images/battle_editor_waves.png)
 
-At the far left of the bar, there's all of the symbols for the enemy spawn points – click on one of these symbols to tell the enemies in this wave to emerge from this spawn point.
+At the far left of the bar, there's all of the symbols for the enemy spawn points â€“ click on one of these symbols to tell the enemies in this wave to emerge from this spawn point.
 
 ![battle editor select wave spawn points](/images/battle_editor_waves_spawns.png)
 
@@ -186,7 +186,7 @@ Next, you'll see a big button that says "Normal." This is where you set what kin
 
 BAM! That's a list of every enemy in the game, son! HORDES OF EVIL ARE AT YOUR DISPOSAL.
 
-I set my wave of enemies to the Attacker type (the red revenant that claw defenders as they walk past), because I like it when my defenders get punched back, but that's just me. You have dozens of enemies to pick from – do whatever you want! You can even select sheep!
+I set my wave of enemies to the Attacker type (the red revenant that claw defenders as they walk past), because I like it when my defenders get punched back, but that's just me. You have dozens of enemies to pick from â€“ do whatever you want! You can even select sheep!
 
 Next, you'll see a text field labeled "count." This is how many enemies of the type selected are in this wave. Right now, it's just 1, which isn't particularly fear-inspiring. Let's jazz things up a little bit. How about 30 enemies?!
 
@@ -200,7 +200,7 @@ For the delay before the first wave appears, change the "first wait" amount in t
 
 ![battle editor set first wait](/images/battle_editor_first_wait.png)
 
-The "level" field lets you set how tough the enemies in this wave are. Let's make this a bit of a challenge… I'm setting my enemies at level 15!
+The "level" field lets you set how tough the enemies in this wave are. Let's make this a bit of a challengeâ€¦ I'm setting my enemies at level 15!
 
 ![battle editor set level](/images/battle_editor_wave_level.png)
 
@@ -234,7 +234,7 @@ In theme with this surprise jackass move, I'm going to add one final wave that's
 
 Okay, so we've got a bunch of enemies for the player to mash now. The only thing left is some sweet, sweet loot waiting at the end!
 
-This takes us to the first bar on the right side of the screen – this is where we control various battle settings.
+This takes us to the first bar on the right side of the screen â€“ this is where we control various battle settings.
 
 ![battle editor settings](/images/battle_editor_settings.png)
 
@@ -246,7 +246,7 @@ Next, we can set how many gold and blue stars are required for this battle to be
 
 ![battle editor set unlock stars](/images/battle_editor_star_button.png)
 
-(The requirement can be set independently for new game plus, so you can make your battle harder or easier to unlock on a second play through of the game.) The battle I made isn't super scary, so I'm going to set it to 20 blue stars. Players will be able to play my battle once they've earned 20 blue stars through story battles! For new game plus, I'm changing the requirement to gold stars – these are the big leagues kiddo, step up your game!
+(The requirement can be set independently for new game plus, so you can make your battle harder or easier to unlock on a second play through of the game.) The battle I made isn't super scary, so I'm going to set it to 20 blue stars. Players will be able to play my battle once they've earned 20 blue stars through story battles! For new game plus, I'm changing the requirement to gold stars â€“ these are the big leagues kiddo, step up your game!
 
 ![battle editor change unlock stars](/images/battle_editor_stars.png)
 
@@ -254,11 +254,11 @@ Next, you have the "endless" checkbox.
 
 ![battle editor endless](/images/battle_editor_endless.png)
 
-Clicking this will turn your battle into an endless battle – the waves you've designed will repeat infinitely. Each time they repeat, the levels of the monsters will increase by the amount you enter in the "Endless level up" field. For the moment, I just want to make a normal battle – I'll come back and show you guys the ins and outs of endless battles later.
+Clicking this will turn your battle into an endless battle â€“ the waves you've designed will repeat infinitely. Each time they repeat, the levels of the monsters will increase by the amount you enter in the "Endless level up" field. For the moment, I just want to make a normal battle â€“ I'll come back and show you guys the ins and outs of endless battles later.
 
 Finally, we get to the good stuff: REWARDS!
 
-You'll notice there's 2 reward buttons. For normal (non-endless) battles, the first button is the reward players get for winning the battle with Azra taking some hits (what would earn you a blue star in a story battle). The second button is for a perfect score – battle beaten without a single enemy getting to Azra (a gold star in story battles).
+You'll notice there's 2 reward buttons. For normal (non-endless) battles, the first button is the reward players get for winning the battle with Azra taking some hits (what would earn you a blue star in a story battle). The second button is for a perfect score â€“ battle beaten without a single enemy getting to Azra (a gold star in story battles).
 
 ![battle editor reward buttons](/images/battle_editor_reward_buttons.png)
 
@@ -270,7 +270,7 @@ You'll also notice that each button lets you set rewards independently for the r
 
 The "type" button lets you pick what kind of reward the player is going to get: experience, "gold" (the in-game currency is actually "scrap", but in the game's code it's just called "gold"), an item, or nothing.
 
-We'll get into items later – for the moment, I'm making my rewards cold, hard cash! A normal pass gets you 500 gold, and a perfect pass gets you 1500! GETTING PAID.
+We'll get into items later â€“ for the moment, I'm making my rewards cold, hard cash! A normal pass gets you 500 gold, and a perfect pass gets you 1500! GETTING PAID.
 
 ![battle editor reward settings](/images/battle_editor_reward_settings2.png)
 
@@ -284,15 +284,15 @@ First of all, you need a title befitting the resplendent awesomeness of your cre
 
 **NOTE TO SELF: Fix crash bug that happens here**
 
-Go to the upper right-hand of the screen, and click the big button labeled "title." This gives you a place to enter a title for the battle – the human readable name that players will see when they select your shining gem of maze-based violence. This will pop up a weird little screen that looks like this.
+Go to the upper right-hand of the screen, and click the big button labeled "title." This gives you a place to enter a title for the battle â€“ the human readable name that players will see when they select your shining gem of maze-based violence. This will pop up a weird little screen that looks like this.
 
 ![battle editor change title](/images/battle_editor_title.png)
 
-Click the flag at the top to select the language you are entering text for. (Sorry to all of you Australians, New Zealanders, and various British Islanders – we only speak American here!)
+Click the flag at the top to select the language you are entering text for. (Sorry to all of you Australians, New Zealanders, and various British Islanders â€“ we only speak American here!)
 
 You can enter the text directly by just typing on your keyboard, but if you have any trouble with certain language/keyboard combinations (such as Chinese, Japanese, Korean, etc), we have a safety fallback - you can open an external editor, enter the text correctly there, copy it to your clipboard, and then click "PASTE from clipboard" in the editor to get the text directly, with no input shenanigans getting in the way.
 
-My title is "The Awesomeness Begins…"
+My title is "The Awesomeness Beginsâ€¦"
 
 ![battle editor enter english title](/images/battle_editor_title2.png)
 
@@ -315,7 +315,7 @@ I've got the Chinese text in. You can do the same for any language that's tricky
 
 Next, give your battle a little bit of descriptive flavor text! Click the BLURB BUTTON!
 
-This works exactly like the title field – just paste the text you want in there, click accept and BAM! you've got a little blurb full of descriptive flavor text! Mine says "…This time it's personal."
+This works exactly like the title field â€“ just paste the text you want in there, click accept and BAM! you've got a little blurb full of descriptive flavor text! Mine says "â€¦This time it's personal."
 
 ![battle editor blurb](/images/battle_editor_blurb.png)
 
@@ -327,7 +327,7 @@ Wait, one last thing... don't forget to save your changes.
 
 YOUR BONUS BATTLE IS NOW READY FOR THE WORLD!!!
 
-##Part 9… Play that sexy thang!
+##Part 9â€¦ Play that sexy thang!
 
 Okay, let's PLAY your awesome bonus battle. This is easy, just launch Defender's Quest and go to the save slot screen.
 
@@ -372,3 +372,21 @@ Selecting it shows the preview...
 And there it is! Our bonus battle is in the game!
 
 ![Play bonus battle](/images/playbonusbattle.png)
+
+That's YOUR bonus battle! That YOU made! You just made it and now it's right there in the game and you can fight it with your little defenders and everything! QUADRUPLE SNAP!
+
+I'm so overwhelmed with joy for you shiny little star children I don't even care that I'm getting my ass kicked by my own bonus battleâ€¦
+
+##An awesome conclusion
+
+Giant flaming macaroni balls, was that totally awesome or what?! You now have the power to make YOUR OWN BONUS BATTLES and then PUT THEM INTO THE FREAKING GAME!
+
+But this is only the beginning, my beautiful little level-building protÃ©gÃ©s â€“ we've just barely touched the tip of the awesome iceberg!
+
+Click that "new battle" button to add more battles to your project, or if you're hungry to sink your teeth into yet more sweet tutorial action, check out the Item Editor tutorial, where you can learn to make unique items with UNIQUE POWERS!
+
+And, of course, stay tuned for more totally rad tutorials, which I will be releasing in a steady morphine drip over the coming months.
+
+Until next time,
+
+KEEP BUILDING AWESOME!
