@@ -124,11 +124,19 @@ That's right, you can give your items up to 2 strange and powerful special prope
 
 See that button down there in the special panel? The one that currently says "nothing" because there's nothing special about our item? TIME TO CHANGE THAT!
 
+![item editor special button](/images/item_editor_special.png)
+
 Click that sucker!
 
-This brings up a list of the different kinds of special you can add your items. There's a ton of different things here, but for the purposes of this tutorial I'm only going to focus on a few. Since the Guard Herald is a bad ass suit of armor, I'm going to select "Strong." This makes it so that your item is strong against the kind of damage or enemy you specify. (It's worth noting that defensive specials are not limited to just armor – there's nothing stopping you from applying these specials to say, a sword! It's your item, go nuts!)
+This brings up a list of the different kinds of special you can add your items. There's a ton of different things here, but for the purposes of this tutorial I'm only going to focus on a few. Since the Guard Herald is a bad ass suit of armor, I'm going to select "Strong."
+
+![item editor specials, selecting "strong"](/images/item_editor_special_strong.png)
+
+This makes it so that your item is strong against the kind of damage or enemy you specify. (It's worth noting that defensive specials are not limited to just armor – there's nothing stopping you from applying these specials to say, a sword! It's your item, go nuts!)
 
 You'll notice that two new buttons pop-up next to the "Special" button – "PSI tax" and "If difficulty is…"
+
+![item editor, psi tax & difficulty filter for specials](/images/item_editor_psi_difficulty.png)
 
 The PSI tax gives a penalty to Azra's PSI when this item is equipped. It's a good way of balancing superpowerful items (particularly Azra's books). I don't think the Guard Herald needs a handicap, so I leave the PSI tax at zero.
 
