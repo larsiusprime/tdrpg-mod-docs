@@ -124,7 +124,7 @@ So you're probably wondering what those other 2 panes are for. Well, as you can 
 
 By default, they are ILLEGAL TERRAIN and WATER.
 
-The player can't place defenders on illegal terrain, AND enemies can't walk on it. You can put down illegal terrain to make the level harder – decreasing the places where player can put their defenders.
+The player can't place defenders on illegal terrain, AND enemies can't walk on it. You can put down illegal terrain to make the level harder – decreasing the places where the player can put their defenders.
 
 Water is kind of similar – the player can't put defenders on water, and most enemies can't walk on it. HOWEVER, special water enemies can walk through water just like it's a regular path!
 
