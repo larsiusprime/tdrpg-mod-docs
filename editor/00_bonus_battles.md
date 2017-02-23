@@ -312,6 +312,8 @@ Next, give your battle a little bit of descriptive flavor text! Click the BLURB 
 
 This works exactly like the title field – just paste the text you want in there, click accept and BAM! you've got a little blurb full of descriptive flavor text! Mine says "…This time it's personal."
 
+![battle editor blurb](/images/battle_editor_blurb.png)
+
 And that's it!
 
 YOUR BONUS BATTLE IS READY FOR THE WORLD!!!
