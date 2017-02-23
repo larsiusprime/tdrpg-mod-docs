@@ -26,9 +26,15 @@ Okay, now you've got the editor running, you need to create a new project – a mo
 
 You're going to be asked to give name for your mod – this is just a simple code identifier that the game will use as a handle for your project. I'm calling mine "legendsofawesome."
 
+![editor](/images/project_id.png)
+
 Next, it's going to ask you for a project title. The title is the thing that players are actually going to see. Mine is "Legends of Awesome."
 
+![editor](/images/project_title.png)
+
 CONGRATULATIONS! You've just made a Defender's Mod! Of course, it doesn't have any battles or anything in it, but let's not let that detract from the glory of your accomplishment.
+
+![editor](/images/project_loaded.png)
 
 Have we sufficiently savored the moment? Good!
 
