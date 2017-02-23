@@ -320,6 +320,50 @@ Wait, one last thing... don't forget to save your changes.
 
 ![battle editor save](/images/battle_editor_save.png)
 
-YOUR BONUS BATTLE IS READY FOR THE WORLD!!!
+YOUR BONUS BATTLE IS NOW READY FOR THE WORLD!!!
 
 ##Part 9… Play that sexy thang!
+
+Okay, let's PLAY your awesome bonus battle. This is easy, just launch Defender's Quest and go to the save slot screen.
+
+Click on the "mods" button in the lower right (it's a wrench).
+
+![Defender's Quest save slot screen w/ mods button](/images/dqmodbutton.png)
+
+Select "My Mods", then "Okay."
+
+![Mods menu](/images/dqmods.png)
+
+The mod browser appears, and here's your mod! The mod I created adds exactly one bonus battle to the game. To play a single mod, just click on it and then hit "Play."
+
+![Play mod](/images/legendsofawesome.png)
+
+This will restart Defender's Quest with the mod loaded. You can tell if a mod is loaded by looking at the bottom right of the title screen.
+
+![Defender's Quest with mod loaded](/images/modloaded.png)
+
+We hit start and... hey! Where'd our save files go?
+
+![Defender's Quest with no saves](/images/dqemptysaves.png)
+
+Well, the thing is that mods technically let you change almost *anything* about the game, which means that save files from the regular game aren't guaranteed to work with it, so we make sure that each mod has its own save directory that's totally independent from the regular game. Just to make sure. The stuff we made in this tutorial should be totally safe, so let's go ahead and import a save file from the regular game.
+
+![Import save file](/images/dqsaveimport.png)
+
+I'm going to select this save file I've prepared.
+
+![Select save file](/images/dqimportsavefile.png)
+
+Starting that save, and proceeding to the bonus battle menu, I see this:
+
+![New bonus battle](/images/newbonusbattle.png)
+
+Bonus battles are sorted by the unlock requirement from least to greatest, with blue stars counting as 0.5 gold stars, so our new bonus battle shows up on top.
+
+Selecting it shows the preview...
+
+![Bonus battle preview](/images/newbonusbattlepreview.png)
+
+And there it is! Our bonus battle is in the game!
+
+![Play bonus battle](/images/playbonusbattle.png)
