@@ -194,7 +194,7 @@ I then set `regen_abs` to be multiplied by 1.5 – now the defender that equips 
 
 Conversely, if I wanted to create a downside to the item, I could set the regeneration multiplier to .5 – now, the defender who equips this item gets their regeneration speed cut in half. (Making the first special a really great bonus and then counterbalancing it by making the second special a weakness is a great way to give players interesting choice when it comes to items.)
 
-Other stats you can modify are attack, range, attack speed, defense, dodge, hp, and PSI! Plus, you can change the modifier to multiply, add, or subtract, so there's all kinds of effects you can create!
+Other stats you can modify are attack, range, attack speed, defense, dodge, max hp, and max PSI! (The last one only affects Azra). Plus, you can change the modifier to multiply, add, or subtract, so there's all kinds of effects you can create!
 
 You could have a long sword that gives melee characters increased range, a suit of blood knight armor that doubles attack speed but cuts health in half, or a tunic that boosts dodge but lowers defense! And that's just using the Stat multiplier special – adding in what you learned about the Strong special will let you do even crazier things!
 
@@ -204,9 +204,41 @@ Okay, so we have a totally awesome new item now! Time to put it in our battle!
 
 Simply save your item, return to the main menu, and load that battle you made earlier.
 
-Click the rewards buttons, and change the reward type to "Item." Now clicking the "reward value" button will give you a list of all of the items that you've made. Go ahead and slap that puppy on in there!
+![item editor, load a battle](/images/editor_load_battle.png)
+![item editor, load specific battle](/images/editor_load_previous_battle.png)
 
-Hit the save button and CONGRATULATIONS! We now have a kick ass bonus battle with an even more kick ass item waiting as a reward at the end!
+Click the rewards buttons.
+
+![battle loaded, click rewards button](/images/battle_editor_rewards_button.png)
+
+Change the reward type to "Item."
+
+![battle editor, select reward type](/images/battle_editor_reward_type.png)
+
+Now clicking the "reward value" button will give you a list of all of the items that you've made.
+
+![battle editor, select reward item value](/images/battle_editor_reward_value.png)
+
+Go ahead and slap that puppy on in there!
+
+![battle editor, select specific item](/images/battle_editor_select_item.png)
+
+You'll see something that looks like this. Don't worry, that's normal.
+
+![battle editor, item selected](/images/battle_editor_item_selected.png)
+
+Hit the save button...
+
+![battle editor, save](/images/battle_editor_item_save.png)
+
+... and CONGRATULATIONS! We now have a kick ass bonus battle with an even more kick ass item waiting as a reward at the end!
+
+##Test it in battle
+
+Close the editor, and using the same method from the [previous tutorial](/editor/00_bonus_battles.md), load your mod and bring up
+your bonus battle. You should see your shiny new item there as the reward!
+
+![item as seen in game](/images/item_in_battle.png)
 
 ##Keep coming back for more!
 
