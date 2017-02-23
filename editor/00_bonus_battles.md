@@ -91,7 +91,7 @@ You can also spice things up by adding more enemy spawn points! Just click on th
 
 ![selecting enemy location](/images/battle_editor_enemyloc.png)
 
-and then click anywhere on the locations pane to put the spawn point there! (You can right-click to erase a placed symbol, in case you made things too crazy.)
+...and then click anywhere on the locations pane to put the spawn point there! (You can right-click to erase a placed symbol, in case you made things too crazy.)
 
 ![placing enemy location](/images/battle_editor_enemyloc2.png)
 
@@ -99,13 +99,21 @@ and then click anywhere on the locations pane to put the spawn point there! (You
 
 Okay, so we've got Azra and a bunch of enemy spawn points on the map, but there's still not much to look at – I mean, we don't even have any place to put defenders down!
 
-Time to change all that! You see this pane to the right? This is a terrain pane – the place where you paint new kinds of terrain on to the battle! Right now, the selected terrain is LEGAL TERRAIN (grass). Defenders can be placed on legal terrain, and enemies can't walk on it. Why don't you slap down some legal terrain so the player can place defenders?
+Time to change all that! You see this pane to the right? This is a terrain pane – the place where you paint new kinds of terrain on to the battle! Right now, the selected terrain is LEGAL TERRAIN (grass). 
+
+![legal terrain](/images/battle_editor_grass.png)
+
+Defenders can be placed on legal terrain, and enemies can't walk on it. Why don't you slap down some legal terrain so the player can place defenders?
 
 Pro tip: hold down the space button while clicking to fill open spaces! Go ahead and try it!
 
-Well shoot, we've got a problem: enemies can't walk on terrain, and we just filled the whole screen with it! This battle can't work – enemies spawn and have no space to walk.
+![fill terrain](/images/battle_editor_grass_fill.png)
+
+Well shoot, we've got a problem: enemies can't walk on terrain, and we just filled the whole screen with it! This battle can't work – enemies will spawn and have no space to walk, leading to weird bugs.
 
 Fortunately, we can right-click to erase terrain. Using this amazing ability, let's make some trails for our poor little revenant. Just erase terrain in a path from your different enemy spawn points to Azra's location.
+
+![erase terrain](/images/battle_editor_grass_erase.png)
 
 CONGRATULATIONS! You've created a fully functional bonus battle – the enemies can get to Azra, and there's legal terrain for the player to place defenders on!
 
