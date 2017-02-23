@@ -80,9 +80,13 @@ As awesome as this item is, I can't shake the feeling that it should be even MOR
 
 Of course! It's that boring old default graphic!
 
+![item editor default graphic](/images/item_editor_default_graphic.png)
+
 Well, this is a problem easily rectified! Using your skills-of-an-artist, let's whip up some sprites that let the world know just how unique and bad ass this item is!
 
 Each item in Defender's Quest has 2 sprites: a big one, for when the player is examining the item itself, and a small one, to be displayed at various places in the user interface where the big one won't fit (such as next to the defender it's equipped to in the party menu).
+
+*NOTE: Mods created with this editor will disable the "original mode" pixelated sprite graphics by default, in the name of keeping things simple. So the only graphics you have to supply are the "hd" graphics.
 
 ##THIS IS IMPORTANT:
 
@@ -90,18 +94,25 @@ The big sprite for your item HAS TO BE 64 x 64 pixels.
 
 The small sprite for your item HAS TO BE 32 x 32 pixels.
 
-Both of them need to be .PNG files or bitmaps (.bmp).
+Both of them need to be .PNG files
 
 These are not polite suggestions, these are ABSOLUTELY MANDATORY!
 
 Using a simple paint program and my incredible artistic talent (by which I mean copying, pasting, and recoloring the game's default art), I whip up these sexy graphics for the Guard Herald:
 
+![guard herald big](/images/guardherald_big.png)
+![guard herald small](/images/guardherald_small.png)
 
 Ooh, soooo shiny!
 
 Now, to attach them to my item! Simply click the "Change" button underneath an icon, find the folder you saved your custom art and, and load those puppies!
 
+![item editor change graphic](/images/item_editor_change_graphic.png)
+![item editor pick graphic](/images/item_editor_pick_graphic.png)
+
 BAM! Now your item has gorgeous unique art!
+
+![item editor with custom graphics](/images/item_editor_custom_graphic.png)
 
 ##Special abilities:
 
