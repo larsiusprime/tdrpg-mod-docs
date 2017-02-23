@@ -146,7 +146,7 @@ You didn't think we're going to stick you with the default grass, rocks, and wat
 
 ![battle editor blue sand](/images/battle_editor_blue_sand.png)
 
-The second-to-last category of terrain, "art," is special art pieces we used in some of our story battles. They don't have any terrain effects, but you can use them to add some flavor to your battles.
+The last category of terrain, "art," is special art pieces we used in some of our story battles. They don't have any terrain effects, but you can use them to add some flavor to your battles.
 
 If you don't like a pane, you can erase the whole thing with the X button over it. 
 
