@@ -18,25 +18,45 @@ See that "New Item" button at the bottom of the main menu? CLICK THAT SUCKER!
 
 The game will ask you for an item ID – like with battles, the item ID is just the internal codename the game uses to keep track of the item. Players aren't ever going to see it, so it doesn't need to be anything human readable. I'm making my ID "guardherald", but you're free to make your item ID whatever the heck you want – this is your party!
 
+![editor item id](/images/item_id.png)
+
 Click accept, and BAM! You're in the item editor!
+
+![item editor](/images/item_editor.png)
 
 ##Choosing your item:
 
 So there's a bunch of buttons here, but don't worry, we're going to break it down for you piece by piece!
 
-The first thing I'm going to do is decide what kind of item I want to make – I'm envisioning the Guard Herald's Harness, a super bad ass piece of heavy armor! So, the first thing I do is click the "Item Class" button – by default, it starts out as "weapon." Clicking on the button brings up all of the different classes of items I can make: Weapon, Armor, and Accessory. I select "Armor."
+The first thing I'm going to do is decide what kind of item I want to make – I'm envisioning the Guard Herald's Harness, a super bad ass piece of heavy armor! So, the first thing I do is click the "Item Class" button – by default, it starts out as "weapon." 
+
+![item editor class](/images/item_editor_class.png)
+
+Clicking on the button brings up all of the different classes of items I can make: Weapon, Armor, and Accessory. I select "Armor."
+
+![item editor class, select armor](/images/item_editor_class_armor.png)
 
 The next button is "Item Type." This button sets what specific type your item is WITHIN the Item Class that you've selected. Since the item class I've picked is Armor, the item types available to me are Heavy and Light. I select Heavy.
 
+![item editor type](/images/item_editor_type.png)
+
 CONGRATULATIONS! You have heavy armor!
 
-Of course, it only does 1 defense…
+![item editor type, select heavy](/images/item_editor_type_heavy.png)
+
+Of course, it only provides 1 defense…
 
 ##Upping them numbers!
 
 Okay, so how do we make this armor AWESOME?
 
-To the right, you'll see a text field – this is the bonus this item gives the defender it's equipped to. You'll notice that underneath this text field is the word "defense_abs". This lets you know that the bonus you enter applies to the defense_abs stat. (Which stat is affected changes depending on the kind of item you're making – if we were making a sword, the stat would be attack.)
+To the right, you'll see a text field with numeric stepper buttons – this is the bonus this item gives the defender it's equipped to. You'll notice that underneath this text field is the word "defense_abs". 
+
+![item editor, set stat](/images/item_editor_defense_abs.png)
+
+This lets you know that the bonus you enter applies to the `defense_abs` stat, which means "absolute defense" -- the exact number of points removed from an incoming attack*. (Which stat is affected changes depending on the kind of item you're making – if we were making a sword, the stat would be `attack`.)
+
+\**The other kind of defense, `defense_mult`, lets you express damage as a multiplier. It's not supported yet.*
 
 I want the Guard Herald to be pretty awesome, even in new game plus, so I'm going to make its bonus 50.
 
@@ -46,7 +66,13 @@ http://defendersquest.wikia.com/wiki/Heavy_Armor
 
 Next we have the "Name" and "Description" buttons – these work just like the name and blurb buttons when you made your battle. Click on the button, click on the flag representing your language, and paste in whatever text you want people to see!
 
+![item editor, title/blurb](/images/item_editor_title_blurb.png)
+
+![item editor, title](/images/item_editor_title.png)
+
 Now just click save and BAM! You've got yourself a bona fide piece of unique heavy armor!
+
+![item editor, save](/images/item_editor_save.png)
 
 ##Loading some art
 
