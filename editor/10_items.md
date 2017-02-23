@@ -168,7 +168,7 @@ Dodge gives a percent chance to completely avoid the incoming damage that the it
 
 I'm going to go with a straightforward damage multiplier for the Guard Herald. Incoming melee damage is multiplied by 0.5 (a.k.a. cut in half). It's worth noting that you can make this damage multiplier greater than 1 to take MORE damage from a specific attack type or enemy type, so you can use the Strong special to actually create weaknesses!
 
-Click save and BAM! Here's the Guard Herald! It gives a 50 bonus to defense_abs AND reduces all incoming melee damage by half! Now that's pretty darn nifty!
+Click save and BAM! Here's the Guard Herald! It gives a 50 bonus to `defense_abs` AND reduces all incoming melee damage by half! Now that's pretty darn nifty!
 
 ![item editor, save](/images/item_editor_special_save.png)
 
@@ -176,9 +176,21 @@ Click save and BAM! Here's the Guard Herald! It gives a 50 bonus to defense_abs 
 
 To make the Guard Herald even niftier, I'm going to add a second special!
 
-Clicking on the second Special button, I select "Stat". This makes it so that the item modifies a specific stat for the defender that has it equipped.
+![item editor, second special](/images/item_editor_special2.png)
 
-I set regen_abs to be multiplied by 1.5 – now the defender that equips the Guard Herald gets a 50% bonus to their regeneration!
+Clicking on the second Special button, I select "Stat". 
+
+![item editor, "stat" special](/images/item_editor_special_stat.png)
+
+This makes it so that the item modifies a specific stat for the defender that has it equipped.
+
+I select the "regen_abs" stat. This means "absolute regeneration" -- how many hit points the character regenerates every second.
+
+![item editor, second special: stat regen](/images/item_editor_stat_regen.png)
+
+I then set `regen_abs` to be multiplied by 1.5 – now the defender that equips the Guard Herald gets a 50% bonus to their regeneration!
+
+![item editor, set regen to 1.5](/images/item_editor_stat_regen_mult.png)
 
 Conversely, if I wanted to create a downside to the item, I could set the regeneration multiplier to .5 – now, the defender who equips this item gets their regeneration speed cut in half. (Making the first special a really great bonus and then counterbalancing it by making the second special a weakness is a great way to give players interesting choice when it comes to items.)
 
