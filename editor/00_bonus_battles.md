@@ -185,21 +185,45 @@ I set my wave of enemies to the Attacker type (the red revenant that claw defend
 
 Next, you'll see a text field labeled "count." This is how many enemies of the type selected are in this wave. Right now, it's just 1, which isn't particularly fear-inspiring. Let's jazz things up a little bit. How about 30 enemies?!
 
-The "wait" field lets you set how much of a pause the player has before this wave comes. I'm leaving mine 1 second.
+![battle editor set number of enemies](/images/battle_editor_waves_count.png)
 
-The "level" field lets you set how high leveled the enemies in this wave are. Let's make this a bit of a challenge… I'm setting my enemies at level 15!
+The "wait" field lets you set how much time the player has between this wave and the next one. I'm leaving mine at 1 second. 
 
-Rate is how fast these enemies are spawned, measured in enemies per second. I'm setting mine to 2, so an enemy will be appearing every half second!
+![battle editor set wait](/images/battle_editor_waves_wait.png)
+
+For the delay before the first wave appears, change the "first wait" amount in the section just above this.
+
+![battle editor set first wait](/images/battle_editor_first_wait.png)
+
+The "level" field lets you set how tough the enemies in this wave are. Let's make this a bit of a challenge… I'm setting my enemies at level 15!
+
+![battle editor set level](/images/battle_editor_wave_level.png)
+
+Rate is how fast these enemies are spawned, measured in enemies per second. I'm setting mine to 2, so one enemy will be appearing every half second!
+
+![battle editor set rate](/images/battle_editor_wave_rate.png)
 
 OKAY, we've got a single wave of  enemies coming at the player! That's definitely more challenging than 1 enemy, but still not as awesome as I would like. IT'S TIME TO ADD ANOTHER WAVE.
 
-Just click the big + underneath the wave bar. Bam! There's a whole new wave!
+Just click the big + underneath the wave bar. 
+
+![battle editor add wave](/images/battle_editor_add_wave.png)
+
+Bam! There's a whole new wave!
+
+![battle editor new wave](/images/battle_editor_new_wave.png)
 
 I'm gonna mix things up with a wave of 20 fast worms coming in after a pause of 10 seconds. You do whatever you want! It's your bonus battle!
 
+![battle editor change wave settings](/images/battle_editor_wave2.png)
+
 Finally, I'm going to do a surprise wave of water enemies! (Any name with _W after it is a water enemy. I picked normal_w, but there's plenty of other options.) These surprise water enemies will take advantage of those shortcuts I made earlier!
 
+![battle editor third wave](/images/battle_editor_wave3.png)
+
 In theme with this surprise jackass move, I'm going to add one final wave that's nothing but a middle finger. (Yes, that's an enemy type!)
+
+![battle editor finger wave](/images/battle_editor_wave4.png)
 
 ##Part 7: sweet sweet loots!
 
