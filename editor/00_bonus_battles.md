@@ -270,7 +270,7 @@ You'll also notice that each button lets you set rewards independently for the r
 
 The "type" button lets you pick what kind of reward the player is going to get: experience, "gold" (the in-game currency is actually "scrap", but in the game's code it's just called "gold"), an item, or nothing.
 
-We'll get into items later – for the moment, I'm making my rewards cold, hard cash! A normal pass gets you 500 gold, and a perfect pass gets you 1500! GETTING PAID.
+We'll get into items later – for the moment, I'm making my rewards cold, hard cash! A normal pass gets you 500 gold! GETTING PAID. You can also set the rewards for New Game+ mode.
 
 ![battle editor reward settings](/images/battle_editor_reward_settings2.png)
 
