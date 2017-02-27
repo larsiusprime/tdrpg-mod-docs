@@ -288,7 +288,7 @@ Go to the upper right-hand of the screen, and click the big button labeled "titl
 
 ![battle editor change title](/images/battle_editor_title.png)
 
-Click the flag at the top to select the language you are entering text for. (Sorry to all of you Australians, New Zealanders, and various British Islanders – we only speak American here!)
+Click the flag at the top to select the language/region you are entering text for.
 
 You can enter the text directly by just typing on your keyboard, but if you have any trouble with certain language/keyboard combinations (such as Chinese, Japanese, Korean, etc), we have a safety fallback - you can open an external editor, enter the text correctly there, copy it to your clipboard, and then click "PASTE from clipboard" in the editor to get the text directly, with no input shenanigans getting in the way.
 
