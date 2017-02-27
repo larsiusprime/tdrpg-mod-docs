@@ -143,6 +143,8 @@ You'll notice that two new buttons pop-up next to the "Special" button – "PSI 
 
 The PSI tax gives a penalty to the amount of PSI Azra gains when enemies are killed, whenever this item is equipped in a particular battle. It's a good way of balancing superpowerful items (particularly Azra's books). I don't think the Guard Herald needs a handicap, so I leave the PSI tax at zero.
 
+*NOTE: apparently "PSI tax" is broken, as it only applies to books equipped to AZRA, using a kind of special the editor can't create just yet. We'll fix this soon so that it applies to any item.*
+
 The "if difficulty is" button is another interesting way of balancing items – you can make it so that specials only kick in at certain difficulties. So for instance, an item can get even more awesome when playing on extreme! For the moment, I'm going to leave this set on "any."
 
 Okay, on to the good stuff! The "vs. attack flavor" button lets you decide what exactly your item is going to be strong against. Go ahead and click on it!
