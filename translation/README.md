@@ -112,7 +112,7 @@ Remember:
 
 So, when you save, be sure to [follow the Firetongue TSV export instructions](https://github.com/larsiusprime/firetongue#exporting-tsv-files-from-libreoffice) and all will be well for both loading in LibreOffice Calc and for using in game.
 
-##Step 4: Optional -- manual insepection in Notepad++.
+##Step 4: Optional -- manual inspection in Notepad++.
 
 Here's an example of me doing things wrong. I've got chinese text in this document, and yet I'm using the default "Western Europe (Windows- 1252/WinLatin 1)" character set, and I'm including a quotation mark (`"`) as my text delimeter, when really it should be nothing.
 
