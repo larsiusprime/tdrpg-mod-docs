@@ -80,7 +80,7 @@ Note that changes you make *after* you loaded the mod will not appear unless you
 
 You'll need to know how to create properly formatted TSV files in order for the game to correctly display them. There are two free tools I highly recommend:
 
-[LibreOffice Calc](https://www.libreoffice.org/discover/calc/) (for importing / exporting TSV files)
+[LibreOffice Calc](https://www.libreoffice.org/discover/calc/) (for importing / exporting TSV files)  
 [Notepad++](https://notepad-plus-plus.org/) (for sanity checking the raw text)
 
 I do not recommend Microsoft Excel as it has some trouble with properly creating UTF-8 TSV files, and you're likely to accidentally create corrupted output.
