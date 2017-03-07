@@ -120,7 +120,7 @@ Here's an example of me doing things wrong. I've got chinese text in this docume
 
 This is going to break in all sorts of fun ways :)
 
-Right click on the (bad) file and select "Open with Notepad++"
+Right click on the (bad) file and select "Edit with Notepad++"
 
 ![](/images/translate/corebadopen.png)
 
