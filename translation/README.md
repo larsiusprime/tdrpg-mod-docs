@@ -116,6 +116,8 @@ So, when you save, be sure to [follow the Firetongue TSV export instructions](ht
 
 Here's an example of me doing things wrong. I've got chinese text in this document, and yet I'm using the default "Western Europe (Windows- 1252/WinLatin 1)" character set, and I'm including a quotation mark (`"`) as my text delimeter, when really it should be nothing.
 
+![](/images/translate/exportbad.png)
+
 This is going to break in all sorts of fun ways :)
 
 Right click on the (bad) file and select "Open with Notepad++"
